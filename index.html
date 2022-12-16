@@ -9,16 +9,25 @@
     <title>Meu portfólio</title>
 </head>
 <body>
-    <header>
+    <header onresize="mudoutamanho()">
         <h1>Matheus Fernandes</h1>
-        <span id="burguer" class="material-symbols-outlined">menu</span>
-        <nav class="menu" onclick="clickmenu()">
+        <span id="burguer" class="material-symbols-outlined"
+        onclick="clickmenu()">menu</span>
+        <hr>
+        <menu id="itens">
             <a href="#">Home</a>
             <a href="#">Sobre</a>
             <a href="#">Portfólio</a>
             <a href="#">Contato</a>
-        </nav>
+        </menu>
     </header>
+
+    <main>
+        <h1>Bem-vindo ao portfólio do Matheus</h1>
+        <p>Aqui você vai conhecer minhas habilidades e projetos.</p>
+    </main>
+
+    <footer></footer>
 
     <script src="script.js"></script>
 </body>
