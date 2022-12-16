@@ -1,0 +1,45 @@
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: white;
+}
+
+header > h1{
+    color: rgb(105, 102, 102);
+}
+
+#burguer{
+    display: flex;
+    float: right;
+    padding: 5px;
+    margin-top: -28px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 1.8em;
+    color: gray;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+#burguer:hover{
+    background-color: lightgray;
+}
+
+nav > a{
+    display: block;
+    color: rgb(105, 102, 102);
+    margin: 15px;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    color: black;
+}
