@@ -142,9 +142,8 @@ main{
 
 .container {
     border: 1px solid rgba(0, 0, 0, 0.144);
-    background-image: url('../imagens/contact3.jpg');
+    background-image: url('../imagens/.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: left center;
     background-size: cover;
     width: 100%;
@@ -165,7 +164,7 @@ main{
     background-color: #ffffffec;
     min-width: 320px;
     max-width: 800px;
-    height: 170px;
+    height: 180px;
     border-radius: 7px;
     padding: 10px;
 }
