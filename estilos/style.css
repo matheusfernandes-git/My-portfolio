@@ -59,11 +59,10 @@ menu > a:hover{
 
 main{
     max-width: 1000px;
-    background-image: url('../imagens/teste2.jpg');
+    background-image: url('../imagens/pexels-cottonbro-studio-3944378.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 100%;
     height: 100vh;
     
@@ -75,7 +74,7 @@ main{
     font-size: 3em;
     color: #000000;
     font-weight: bold;
-    padding-top: 40%;
+    padding-top: 50%;
 }
 
 .home > p{
@@ -143,10 +142,10 @@ main{
 
 .container {
     border: 1px solid rgba(0, 0, 0, 0.144);
-    background-image: url('../imagens/montreal.jpg');
+    background-image: url('../imagens/contact3.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center ;
+    background-position: left center;
     background-size: cover;
     width: 100%;
     height: 400px;
@@ -163,7 +162,7 @@ main{
 .conteudo{
     border: 1px solid black;
     margin-top: 100px;
-    background-color: #ffffffe1;
+    background-color: #ffffffec;
     min-width: 320px;
     max-width: 800px;
     height: 170px;
