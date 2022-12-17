@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>Meu portfólio</title>
+    <title>Sobre</title>
 </head>
 <body>
     <header onresize="mudoutamanho()">
@@ -22,19 +21,30 @@
         </menu>
     </header>
 
-    <main>
-        <div class="home">
-            <h1>Bem-vindo ao portfólio do Matheus</h1>
-            <p>Aqui você vai conhecer minhas habilidades e projetos.</p>
-        </div>
-    </main>
+    <div class="text">
+        <h2>Estudante de Análise e Desenvolvimento de Sistemas</h2>
+        <p>Me chamo Matheus Fernandes de Lima, tenho 19 anos, sou estudante de análise e desenvolvimento de Sistemas.
+        Focado em front-end: HTML, CSS e JavaScript.</p>
 
+        <strong>
+            <p class="pc">Acesse meu currículo aqui:</p>
+        </strong>
+         <a href="documentos/Currículo_NOVO.pdf" target="_blank">Meu currículo</a>
+        
+    </div>
+    <div class="sobre">
+        <picture>
+            <source media="(max-width: 768px )" srcset="imagens/eu1.jpg">
+            <img src="imagens/eu2.jpg" alt="imagem">
+        </picture>
+    </div>
 
     <footer>
         <div>
-                <p class="text-right">Copyright - Matheus Fernandes &copy;</p>
+          <p class="text-right">Copyright - Matheus Fernandes &copy;</p>
         </div>
     </footer>
+
 
     <script src="script.js"></script>
 </body>

@@ -7,25 +7,29 @@
     box-sizing: border-box;
 }
 
-
 header{
-    background-color: white;
+    background-color: #ffffff;
+    overflow: hidden;
+    position: sticky;
+    top: -1px;
 }
 
 header > h1{
     color: rgb(105, 102, 102);
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
     margin-top: 8px;
+    margin-bottom: -10px;
     font-size: 1.2em;
     font-weight: lighter;
-    padding: 10px;
+    padding: 2px;
 }
 
 #burguer{
     display: flex;
     float: right;
     padding: 4px;
-    margin-top: -45px;
+    margin-top: -20px;
     margin-right: 20px;
     border-radius: 5px;
     font-size: 1.8em;
@@ -36,14 +40,16 @@ header > h1{
 
 #burguer:hover{
     background-color: lightgray;
+    transition-duration: 0.5s;
 }
 hr{
     margin-top: 6px;
 }
+
 menu > a{
     display: block;
     color: rgb(105, 102, 102);
-    margin: 17px;
+    margin: 20px;
     text-decoration: none;
 }
 
@@ -52,26 +58,30 @@ menu > a:hover{
 }
 
 main{
+    max-width: 1000px;
     background-image: url('../imagens/teste2.jpg');
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 60vh;
+    width: 100%;
+    height: 100vh;
+    
 }
+
 .home > h1{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 2.4em;
+    font-size: 3em;
     color: #000000;
     font-weight: bold;
-    padding-top: 150px;
+    padding-top: 40%;
 }
 
 .home > p{
     text-align: center;
-    font-size: 1.3em;
-    margin-top: 8px;
+    font-size: 1.4em;
+    margin-top: 20px;
 }
 
 .sobre > img{
@@ -80,52 +90,94 @@ main{
     width: 700px;
 }
 
-.sobre h2{
+.text h2{
     text-align: center;
     margin-top: 20px;
     font-family: 'Poppins', sans-serif;
 }
-.sobre p{
-    text-align: center;
-    margin-top: 10px;
+.text p{
+    text-indent: 20px;
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
+.text .pc{
+    text-indent: 0px;
+}
+
+.text > a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.719);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.text > a:hover{
+    background-color: rgba(255, 0, 0, 0.89);
+}
+
+.sobre > picture > img{
+    margin-top: 30px;
+    padding: 10px;
+    width: 100%;
+}
 .portfolio{
+    background-color:#B69E82;
     text-align: center;
     padding-top: 10px;
     margin-top: 50px;
+    margin-bottom: 20px;
+    height: 50vh;
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
     color: #ffffff;
-    background-color: rgba(52, 163, 214, 0.342);
 }
 
-.contato {
-    background-image: url('../imagens/pexels-dlxmediahu-11901223.jpg');
+.portfolio > h2, hr{
+    font-size: 1.8em;
+    margin-top: 30px;
+}
+
+.container {
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    background-image: url('../imagens/montreal.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: center ;
     background-size: cover;
-    height: 50vh;
+    width: 100%;
+    height: 400px;
 }
 
-.info{
+.container > .conteudo > h2{
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.container > .conteudo > hr{
+    margin-top: -1px;
+}
+
+.conteudo{
+    border: 1px solid black;
+    margin-top: 100px;
     background-color: #ffffffe1;
-    width: 500px;
+    min-width: 320px;
+    max-width: 800px;
     height: 170px;
-    margin-left: 15px;
     border-radius: 7px;
     padding: 10px;
 }
 
 nav{
-    margin-top: 30px;
+    margin-top: 25px;
 }
-.contato > .info > p{
+.container > .conteudo > p{
     margin-top: 10px;
 }
-.gh{
-    
+.gh{    
     color: #ffffff;
     background-color: rgba(255, 166, 0, 0.705);
     padding: 10px;
@@ -160,3 +212,9 @@ nav{
 .inst:hover{
     background-color: rgba(128, 0, 128, 0.795);
 }
+
+footer {
+    margin-top: 10px;
+    padding: 15px;
+    text-align: center;
+  }
