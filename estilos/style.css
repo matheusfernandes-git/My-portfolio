@@ -49,8 +49,10 @@ hr{
 menu > a{
     display: block;
     color: rgb(105, 102, 102);
-    margin: 20px;
-    margin-top: 37px;
+    padding: 8px;
+    margin: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-decoration: none;
 }
 
@@ -91,6 +93,7 @@ main{
 }
 
 .sobre h2{
+    padding: 5px;
     text-align: center;
     margin-top: 20px;
     font-family: 'Poppins', sans-serif;
@@ -119,6 +122,7 @@ main{
 }
 
 .sobre > p{
+    padding: 10px;
     text-indent: 10px;
     text-align: justify;
     margin-top: 40px;
@@ -148,28 +152,25 @@ main{
     margin-top: 30px;
 }
 
-.container {
-    border: 1px solid rgba(0, 0, 0, 0.144);
-    background-image: url('../imagens/.jpg');
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: cover;
+aside {
     width: 100%;
     height: 400px;
 }
 
-.container > .conteudo > h2{
-    font-weight: lighter;
-    margin-bottom: 10px;
+aside > h2{
+    font-weight: bold;
+    margin-top: -30px;
 }
-.container > .conteudo > hr{
+aside > hr{
     margin-top: -1px;
 }
 
-.conteudo{
-    border: 1px solid black;
-    margin-top: 100px;
+aside{
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    margin-top: 150px;
+    margin: 10px;
     background-color: #ffffffec;
+    box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.308);
     min-width: 320px;
     max-width: 800px;
     height: 192px;
@@ -178,9 +179,10 @@ main{
 }
 
 nav{
-    margin-top: 20px;
+    margin-top: -55px;
+    margin-left: 20px;
 }
-.container > .conteudo > p{
+aside > p{
     margin-top: 10px;
 }
 .gh{    
