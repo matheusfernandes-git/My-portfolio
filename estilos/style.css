@@ -50,6 +50,7 @@ menu > a{
     display: block;
     color: rgb(105, 102, 102);
     margin: 20px;
+    margin-top: 37px;
     text-decoration: none;
 }
 
@@ -89,33 +90,39 @@ main{
     width: 700px;
 }
 
-.text h2{
+.sobre h2{
     text-align: center;
     margin-top: 20px;
     font-family: 'Poppins', sans-serif;
 }
-.text p{
-    text-indent: 20px;
-    margin-left: 5px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
 
-.text .pc{
+.sobre .pc{
     text-indent: 0px;
+    margin: 10px;
 }
 
-.text > a{
+.sobre > a{
+    display: flex;
+    width: 96%;
     text-decoration: none;
     margin: 10px;
+    margin-top: 20px;
     color: white;
+    font-weight: bold;
     background-color: rgba(255, 0, 0, 0.719);
     padding: 10px;
     border-radius: 8px;
 }
 
-.text > a:hover{
+.sobre > a:hover{
     background-color: rgba(255, 0, 0, 0.89);
+}
+
+.sobre > p{
+    text-indent: 10px;
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .sobre > picture > img{
@@ -123,6 +130,7 @@ main{
     padding: 10px;
     width: 100%;
 }
+
 .portfolio{
     background-color:#B69E82;
     text-align: center;
