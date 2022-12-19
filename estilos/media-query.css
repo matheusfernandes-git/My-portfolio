@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px) and (max-width: 992px){
+    #burguer{
+        display: none;
+    }
+
+    menu > a{
+        display: flex;
+        float: right;
+        margin-right: 10px;
+        margin-top: -37.9px;
+    }
+    #rowh{
+        display: none;
+    }
+
+    .container > .conteudo{
+        width: 100%;
+        margin: 10px;
+        margin-top: 95px;
+        
+    }
+}
