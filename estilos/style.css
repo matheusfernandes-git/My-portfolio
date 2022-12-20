@@ -20,7 +20,7 @@ header > h1{
     margin-left: 10px;
     margin-top: 8px;
     margin-bottom: -10px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: lighter;
     padding: 2px;
 }
@@ -32,7 +32,7 @@ header > h1{
     margin-top: -20px;
     margin-right: 20px;
     border-radius: 5px;
-    font-size: 1.8em;
+    font-size: 1.9em;
     color: gray;
     border: 1px solid lightgray;
     cursor: pointer;
@@ -54,13 +54,14 @@ menu > a{
     margin-top: 20px;
     margin-bottom: 20px;
     text-decoration: none;
+    transition-duration: 0.5s;
 }
 
 menu > a:hover{
     color: black;
 }
 
-main{
+.home{
     max-width: 1000px;
     background-image: url('../imagens/pexels-cottonbro-studio-3944378.jpg');
     background-position: center center;
@@ -86,25 +87,29 @@ main{
     margin-top: 20px;
 }
 
-.sobre > img{
+main > img{
     margin-top: 50px;
     margin-left: 28px;
     width: 700px;
 }
 
-.sobre h2{
+main{
+    min-width: 300px;
+    max-width: 1000px;
+}
+main > h2{
     padding: 5px;
     text-align: center;
     margin-top: 20px;
     font-family: 'Poppins', sans-serif;
 }
 
-.sobre .pc{
+main .pc{
     text-indent: 0px;
     margin: 10px;
 }
 
-.sobre > a{
+main > a{
     display: flex;
     width: 96%;
     text-decoration: none;
@@ -115,21 +120,24 @@ main{
     background-color: rgba(255, 0, 0, 0.719);
     padding: 10px;
     border-radius: 8px;
+    transition-duration: 0.7s;
 }
 
-.sobre > a:hover{
+main > a:hover{
     background-color: rgba(255, 0, 0, 0.89);
+    transition-duration: 0.3s;
 }
 
-.sobre > p{
+main > p{
     padding: 10px;
     text-indent: 10px;
     text-align: justify;
+    line-height: 30px;
     margin-top: 40px;
     margin-bottom: 20px;
 }
 
-.sobre > picture > img{
+main > picture > img{
     margin-top: 30px;
     padding: 10px;
     width: 100%;
@@ -152,39 +160,33 @@ main{
     margin-top: 30px;
 }
 
-aside {
-    width: 100%;
-    height: 400px;
+aside{
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    border-radius: 7px;
+    padding: 5px;
+    margin-bottom: 30px;
+    width: 97%;
+    margin: auto;
+    box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.308);
 }
 
 aside > h2{
-    font-weight: bold;
-    margin-top: -30px;
-}
-aside > hr{
-    margin-top: -1px;
-}
-
-aside{
-    border: 1px solid rgba(0, 0, 0, 0.301);
-    margin-top: 150px;
-    margin: 10px;
-    background-color: #ffffffec;
-    box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.308);
-    min-width: 320px;
-    max-width: 800px;
-    height: 192px;
-    border-radius: 7px;
+    font-family: 'Poppins, sans-serif';
+    font-weight: lighter;
+    background-color: rgba(211, 211, 211, 0.445);
     padding: 10px;
+    margin: -6px -6px 0 -6px;
 }
 
 nav{
-    margin-top: -55px;
-    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
+
 aside > p{
     margin-top: 10px;
 }
+
 .gh{    
     color: #ffffff;
     background-color: rgba(255, 166, 0, 0.705);
@@ -222,7 +224,7 @@ aside > p{
 }
 
 footer {
-    margin-top: 10px;
     padding: 15px;
     text-align: center;
+    background-color: #ffffff;
   }
