@@ -15,6 +15,7 @@
         min-width: 300px;
         max-width: 1000px;
         padding: 10px;
+        padding-bottom: 30px;
         margin: auto;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px; 
@@ -39,7 +40,7 @@
 
     aside{
         height: 200px;
-        margin-top: 60px;
+        margin-top: 40px;
         padding: 20px;
         padding-bottom: 30px;
     }
@@ -53,6 +54,14 @@
 
     aside > p, nav{
         margin-left: -10px;
+    }
+    
+    .portfolio{
+        width: 50%;
+    }
+
+    #fp{
+        display: none;
     }
 
     footer{
@@ -85,6 +94,7 @@
     .home{
         max-width: 100%;
     }
+
     .home > h1{
         padding-top: 300px;
         font-size: 4em;
@@ -98,6 +108,7 @@
         max-width: 950px;
         padding: 10px;
         margin: auto;
+        padding-bottom: 30px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px; 
         box-shadow: 0px 0px 4px #00000050;
@@ -128,7 +139,7 @@
 
     aside{
         height: 200px;
-        margin-top: 60px;
+        margin-top: 30px;
         padding: 20px;
         padding-bottom: 30px;
     }
@@ -145,7 +156,25 @@
         margin-left: -10px;
     }
 
+    .portfolio{
+        max-width: 45%;
+        margin-top: 100px;
+        border-radius: 8px;
+    }
+
+    .portfolio > .h2{
+        margin-top: 3px;
+    }
+
+    .works > a{
+        width: 40%;
+    }
+
+    #fp{
+        display: none;
+    }
+
     footer{
-        margin-top: 8px;
+        margin-top: -8px;
     }
 }

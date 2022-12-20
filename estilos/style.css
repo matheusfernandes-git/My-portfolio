@@ -143,16 +143,21 @@ main > picture > img{
     width: 100%;
 }
 
+
+#bp{
+    background-color:rgba(211, 211, 211, 0.445);
+}
 .portfolio{
-    background-color:#B69E82;
-    text-align: center;
-    padding-top: 10px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    height: 50vh;
-    font-family: 'Poppins', sans-serif;
-    font-weight: lighter;
-    color: #ffffff;
+    background-color: #ffffff;
+    width: 80%;
+    height: 600px;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 10px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    box-shadow: 0px 0px 4px #00000050;
 }
 
 .portfolio > h2, hr{
@@ -160,17 +165,38 @@ main > picture > img{
     margin-top: 30px;
 }
 
-.portfolio > #pra{
-    display: flex;
-    float: left;
-    margin-top: 10px;
+.portfolio > h2{
+    font-size: 2.3em;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 100px;
 }
 
-.portfolio > #prc{
-    display: flex;
-    float: right;
-    margin-top: 10px;
+.works a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(105, 102, 102);
+    color: #ffffff;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 6px;
+    transition-duration: 0.5s;
 }
+
+#pra{
+    margin-top: 50px;
+}
+
+#primc{
+    margin-top: 30px;
+}
+
+.works a:hover{
+    background-color: rgba(105, 102, 102, 0.644);
+}
+
 aside{
     border: 1px solid rgba(0, 0, 0, 0.301);
     border-radius: 7px;
@@ -232,6 +258,10 @@ aside > p{
 
 .inst:hover{
     background-color: rgba(128, 0, 128, 0.795);
+}
+
+#fp{
+    margin-top: 46%;
 }
 
 footer {
