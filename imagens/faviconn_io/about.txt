@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Noto Sans Cherokee
+- Font Author: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cherokee)
+- Font Source: http://fonts.gstatic.com/s/notosanscherokee/v19/KFOPCm6Yu8uF-29fiz9vQF9YWK6Z8O10cHNA0cSkZCHYWi5PDkm5rAffjl0.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

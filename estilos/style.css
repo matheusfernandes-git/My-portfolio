@@ -160,6 +160,17 @@ main > picture > img{
     margin-top: 30px;
 }
 
+.portfolio > #pra{
+    display: flex;
+    float: left;
+    margin-top: 10px;
+}
+
+.portfolio > #prc{
+    display: flex;
+    float: right;
+    margin-top: 10px;
+}
 aside{
     border: 1px solid rgba(0, 0, 0, 0.301);
     border-radius: 7px;
@@ -224,7 +235,8 @@ aside > p{
 }
 
 footer {
-    padding: 15px;
+    padding: 10px;
+    margin-top: 8px;
     text-align: center;
     background-color: #ffffff;
   }
