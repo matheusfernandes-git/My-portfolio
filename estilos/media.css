@@ -1,6 +1,5 @@
 @media screen and (min-width: 768px) and (max-width: 992px){
 
-
     body{
         background-color: rgba(211, 211, 211, 0.445);
     }
@@ -58,6 +57,8 @@
     
     .portfolio{
         width: 50%;
+        margin-top: 100px;
+        border-radius: 8px;
     }
 
     #fp{
