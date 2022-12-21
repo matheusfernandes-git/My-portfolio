@@ -64,8 +64,8 @@
         display: none;
     }
 
-    footer{
-        margin-top: 8px;
+    #fh{
+        margin-top: 0px;
     }
 }
     @media screen and (min-width: 992px) and (max-width: 1920px){
@@ -174,7 +174,7 @@
         display: none;
     }
 
-    footer{
-        margin-top: 10px;
+    #fh{
+        margin-top: 0px;
     }
 }
