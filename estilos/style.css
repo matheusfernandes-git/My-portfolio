@@ -46,7 +46,7 @@ hr{
     margin-top: 6px;
 }
 
-menu > a{
+menu > ul > li > a{
     display: block;
     color: rgb(105, 102, 102);
     padding: 8px;
@@ -57,7 +57,7 @@ menu > a{
     transition-duration: 0.5s;
 }
 
-menu > a:hover{
+menu > ul > li > a:hover{
     color: black;
 }
 
