@@ -1,9 +1,5 @@
 function mudoutamanho(){
-    if(innerWidth >= 768){
-        itens.style.display = 'block'
-    }else{
-        itens.style.display = 'none'
-    }
+    itens.style.display = 'block'
 }
 
 function clickmenu(){
