@@ -194,6 +194,10 @@ main > picture > img{
     margin-top: 30px;
 }
 
+#prlog{
+    margin-top: 30px;
+}
+
 .works a:hover{
     background-color: rgba(105, 102, 102, 0.644);
 }
