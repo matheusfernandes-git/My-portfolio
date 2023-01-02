@@ -22,6 +22,11 @@
         margin-top: -54px;
     }
 
+    .home > h1{
+        padding-top: 300px;
+        font-size: 3em;
+    }
+
     #homea{
         display: inline;
         float: right;
