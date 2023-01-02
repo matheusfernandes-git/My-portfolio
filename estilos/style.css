@@ -44,7 +44,7 @@ header > h1{
 }
 
 hr{
-    margin-top: 6px;
+   margin-top: 25px;
 }
 
 menu{
@@ -211,24 +211,36 @@ main > picture > img{
     margin-left: 150px;
 }
 
-#bp{
-    background-color:rgba(211, 211, 211, 0.445);
-}
-
-#portfolio{
-    
-}
-
-#portfolio > h2, hr{
-    font-size: 1.8em;
-    margin-top: 30px;
-}
-
 #portfolio > h2{
     font-size: 2.4em;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     margin-top: 20px;
+}
+
+#bp{
+    background-color:rgba(211, 211, 211, 0.445);
+}
+
+#portfolio > div > #site, #telalogin, #tabuada{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 400px;
+    height: 250px;
+}
+
+#portfolio > div > #imc{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 455px;
+    height: 280px;
+}
+
+#portfolio > div > a{
+    text-decoration: none;
+    
 }
 
 .works a{
