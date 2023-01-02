@@ -18,22 +18,23 @@
         <hr>
             <menu id="itens">
                 <ul>
-                    <li><a id="homea" href="index.html">Home</a></li>
-                    <li><a id="sobrea" href="sobre.html">Sobre</a></li>
-                    <li><a id="sobrea" href="sobre.html">Tecnologias</a></li>
-                    <li><a id="projetosa" href="portfolio.html">Projetos</a></li>
+                    <li><a id="homea" href="#home">Home</a></li>
+                    <li><a id="sobrea" href="#sobre">Sobre</a></li>
+                    <li><a id="sobrea" href="#areatec">Tecnologias</a></li>
+                    <li><a id="projetosa" href="#projetos">Projetos</a></li>
+                    <li><a id="projetosa" href="#">Contato</a></li>
                 </ul>
                 <hr id="rowh">
             </menu>
     </header>
 
         <div class="home">
-            <h1>Bem-vindo ao portfólio do Matheus</h1>
+            <h1 id="home" >Bem-vindo ao portfólio do Matheus</h1>
             <p>Aqui você vai conhecer minhas habilidades e projetos.</p>
         </div>
         
         <div id="tec">
-            <h2>Tecnologias</h2>
+            <h2 id="areatec">Tecnologias</h2>
             <div id="js">
                 <img src="imagens/js.png" alt="JavaScript">
                 <p>JavaScript</p>
@@ -47,8 +48,9 @@
                 <p>CSS 3</p>
             </div>
         </div>
+        
         <main>
-            <h2>Sobre mim</h2>
+            <h2 id="sobre" >Sobre mim</h2>
             <p>Me chamo Matheus Fernandes de Lima, tenho 19 anos, sou <strong id="strongads">estudante de análise e desenvolvimento de Sistemas</strong>. Sempre fui apaixonado em tecnologia, e hoje me vejo atuando na área.
             Focado em <strong id="strongm">front-end: HTML, CSS e JavaScript</strong>.</p>
     
@@ -66,31 +68,38 @@
 
 
         <div id="portfolio">
-            <h2>Projetos</h2>
+            <h2 id="projetos" >Projetos</h2>
             <div>
                 <img id="site" src="imagens/thumbsite.png" alt="site">
-                <a href="https://matheusfernandes-git.github.io/projeto-android/" target="_blank">Clique para ver</a>
+                <a id="linksite" href="https://matheusfernandes-git.github.io/projeto-android/" target="_blank">Clique para ver</a>
             </div>
             <div>
                 <img id="imc" src="imagens/thumbimc.png" alt="imc">
-                <a href="https://matheusfernandes-git.github.io/projeto-calculadoraIMC/" target="_blank">Clique para ver</a>
+                <a id="linkimc" href="https://matheusfernandes-git.github.io/projeto-calculadoraIMC/" target="_blank">Clique para ver</a>
             </div>
             <div>
                 <img id="telalogin" src="imagens/thumblogin.png" alt="telalogin">
-                <a href="https://matheusfernandes-git.github.io/projeto-login/" target="_blank">Cluque para ver</a>
+                <a id="linkl" href="https://matheusfernandes-git.github.io/projeto-login/" target="_blank">Clique para ver</a>
             </div>
             <div>
                 <img id="tabuada" src="imagens/thumbtabuada.png" alt="tabuada">
-                <a href="https://matheusfernandes-git.github.io/gerador-tabuada/" target="_blank">Clique para ver</a>
+                <a id="linkt" href="https://matheusfernandes-git.github.io/gerador-tabuada/" target="_blank">Clique para ver</a>
             </div>
 
         </div>
 
 
     <footer id="fh">
-        <div>
-            <p class="text-right">Copyright - Matheus Fernandes &copy;</p>
+        <h2 id="cont">Contato</h2>
+        <div id="areacont">
+            <p> <strong>Email:</strong> matheusfernandes311@hotmail.com</p>
+            
+        <div id="linkscont">
+            <a href="matheusfernandes-git.github.io" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/matheus-fernandes-732a8322a/" target="_blank">Linkedin</a>
         </div>
+        </div>
+
     </footer>
 
     <script src="script.js"></script>

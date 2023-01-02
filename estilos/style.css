@@ -95,12 +95,6 @@ menu > ul > li > a:hover{
     margin-top: 20px;
 }
 
-main > img{
-    margin-top: 50px;
-    margin-left: 28px;
-    width: 700px;
-}
-
 main{
     background-color: black;
     min-width: 300px;
@@ -112,8 +106,14 @@ main > h2{
     font-size: 2.4em;
     padding: 5px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     font-family: 'Poppins', sans-serif;
+}
+
+main > img{
+    margin-top: 50px;
+    margin-left: 28px;
+    width: 700px;
 }
 
 main > p{
@@ -139,12 +139,15 @@ main .pc{
 
 main > a{
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 96%;
     text-decoration: none;
     margin: 10px;
     margin-top: 20px;
     color: white;
-    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+    font-size: 1em;
     background-color: #4D92EB;
     padding: 10px;
     border-radius: 8px;
@@ -223,7 +226,7 @@ main > picture > img{
 }
 
 #portfolio > div > #site, #telalogin, #tabuada{
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px ;
     margin-top: 20px;
     margin-left: 50px;
     width: 400px;
@@ -231,16 +234,35 @@ main > picture > img{
 }
 
 #portfolio > div > #imc{
-    border-radius: 10px;
+    border-radius: 10px 0px 0px;
     margin-top: 20px;
     margin-left: 25px;
-    width: 455px;
-    height: 280px;
+    width: 459px;
+    height: 250px;
 }
 
 #portfolio > div > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins', sans-serif;
+    width: 400px;
+    margin: 20px;
+    margin-top: -4px;
+    margin-left: 50px;
     text-decoration: none;
-    
+    background-color: rgb(11, 57, 104);
+    color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#portfolio > div > #linksite, #linkimc, #linkl, #linkt{
+    padding: 15px;
+}
+
+#portfolio > div > a:hover{
+    transition: 0.5s;
+    background-color: #366db4;
 }
 
 .works a{
@@ -343,9 +365,18 @@ aside > p{
     margin-top: 46%;
 }
 
-footer {
-    padding: 10px;
-    margin-top: 8px;
+footer > h2{
     text-align: center;
-    background-color: #ffffff;
-  }
+    font-size: 2em;
+}
+
+footer > #areacont > p{
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#linkscont > a{
+    text-decoration: none;
+    margin-top: 100px;
+}
