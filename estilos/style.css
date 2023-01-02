@@ -181,40 +181,37 @@ main > picture > img{
 }
 
 #tec > div{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     transition: .5s;
-    cursor: pointer;
-    width: 100%;
+    margin-left: 35px;
 }
 
 #tec > div > p{
+    text-align: center;
     font-family: 'poppins';
-    padding: 10px;
-    margin-left: 60px;
+    padding: 8px;
+    width: 100%;
 }
 
 #tec > div > img{
-    width: 70%;
+    width: 100%;
 }
 
 #tec > #js{
-    width: 200px;
+    width: 40%;
     margin-top: 30px;
-    margin-left: 30px;
 }
 
 #tec > #html{
-    width: 200px;
-    margin-left: 280px;
-    margin-top: -245px;
+    width: 40%;
 }
 
 #tec > #css{
-    width: 200px;
+    width: 40%;
     margin-top: 50px;
-    margin-left: 150px;
+    align-items: center;
 }
 
 #portfolio{
