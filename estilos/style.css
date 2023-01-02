@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Secular+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
 
 *{
     font-family: Arial, Helvetica, sans-serif;
@@ -69,23 +69,23 @@ menu > ul > li > a:hover{
 
 .home{
     max-width: 1000px;
-    background-color: #34629E;
-    background-image: url('../imagens/');
-    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.781);
+    background-image: url('../imagens/pexels-neo-2653362.jpg');
+    background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     
 }
 
 .home > h1{
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     font-size: 3em;
     color: #ffffff;
-    font-weight: bold;
-    padding-top: 30px;
+    padding-top: 70px;
 }
 
 .home > p{
@@ -102,17 +102,37 @@ main > img{
 }
 
 main{
+    background-color: black;
     min-width: 300px;
     max-width: 1000px;
 }
+
 main > h2{
+    color: #ffffff;
+    font-size: 2.4em;
     padding: 5px;
     text-align: center;
     margin-top: 20px;
     font-family: 'Poppins', sans-serif;
 }
 
+main > p{
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 10px;
+    text-indent: 10px;
+    text-align: justify;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#strongads, #strongm{
+    color: #4D92EB;
+}
+
 main .pc{
+    color: #ffffff;
     text-indent: 0px;
     margin: 10px;
 }
@@ -125,24 +145,15 @@ main > a{
     margin-top: 20px;
     color: white;
     font-weight: bold;
-    background-color: rgba(255, 0, 0, 0.719);
+    background-color: #4D92EB;
     padding: 10px;
     border-radius: 8px;
     transition-duration: 0.7s;
 }
 
 main > a:hover{
-    background-color: rgba(255, 0, 0, 0.89);
+    background-color: #1F3B5E;
     transition-duration: 0.3s;
-}
-
-main > p{
-    padding: 10px;
-    text-indent: 10px;
-    text-align: justify;
-    line-height: 30px;
-    margin-top: 40px;
-    margin-bottom: 20px;
 }
 
 main > picture > img{
@@ -151,34 +162,73 @@ main > picture > img{
     width: 100%;
 }
 
+#tec{
+    width: 100%;
+}
+
+#tec > h2{
+    font-size: 2.4em;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tec > div{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#tec > div > p{
+    font-family: 'poppins';
+    padding: 10px;
+    margin-left: 60px;
+}
+
+#tec > div > img{
+    width: 100%;
+}
+
+#tec > #js{
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#tec > #html{
+    width: 200px;
+    margin-left: 280px;
+    margin-top: -245px;
+}
+
+#tec > #css{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
 #bp{
     background-color:rgba(211, 211, 211, 0.445);
 }
-.portfolio{
-    background-color: #ffffff;
-    width: 80%;
-    height: 600px;
-    min-width: 300px;
-    max-width: 1000px;
-    padding: 10px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 8px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px; 
-    box-shadow: 0px 0px 4px #00000050;
+
+#portfolio{
+    
 }
 
-.portfolio > h2, hr{
+#portfolio > h2, hr{
     font-size: 1.8em;
     margin-top: 30px;
 }
 
-.portfolio > h2{
-    font-size: 2.3em;
+#portfolio > h2{
+    font-size: 2.4em;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin-top: 90px;
+    margin-top: 20px;
 }
 
 .works a{
