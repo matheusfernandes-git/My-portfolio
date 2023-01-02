@@ -365,18 +365,58 @@ aside > p{
     margin-top: 46%;
 }
 
+footer{
+    background-color: #1F3B5E;
+}
+
 footer > h2{
+    padding: 15px;
+    color: #ffffff;
     text-align: center;
-    font-size: 2em;
+    font-size: 2.2em;
 }
 
 footer > #areacont > p{
+    color: #ffffffda;
     font-size: 1.1em;
     text-align: center;
     margin-top: 30px;
 }
 
-#linkscont > a{
+#strongemail{
+    color: #ffffff;
+}
+
+#linkscont a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins', sans-serif;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
     text-decoration: none;
-    margin-top: 100px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+#linkscont > #git{
+    background-color: purple;
+    color: #ffffff;
+    margin-left: 80px;
+}
+
+#linkscont > #git:hover{
+    background-color: rgba(128, 0, 128, 0.753);
+    transition: 0.5s;
+}
+
+#linkscont > #linkedin{
+    background-color: #0A66C2;
+    color: #ffffff;
+}
+
+#linkscont > #linkedin:hover{
+    background-color: #488ed4ea;
+    transition: 0.5s;
 }
