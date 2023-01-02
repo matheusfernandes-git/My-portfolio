@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 header{
     background-color: #1F3B5E;
     overflow: hidden;
@@ -68,7 +74,6 @@ menu > ul > li > a:hover{
 }
 
 .home{
-    max-width: 1000px;
     background-color: rgba(0, 0, 0, 0.781);
     background-image: url('../imagens/pexels-neo-2653362.jpg');
     background-position: left;
@@ -97,8 +102,7 @@ menu > ul > li > a:hover{
 
 main{
     background-color: black;
-    min-width: 300px;
-    max-width: 1000px;
+    width: 100%;
 }
 
 main > h2{
@@ -120,8 +124,8 @@ main > p{
     color: #ffffff;
     font-size: 1.2em;
     padding: 10px;
+    width: 100%;
     text-indent: 10px;
-    text-align: justify;
     line-height: 30px;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -141,13 +145,13 @@ main > a{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 96%;
+    width: 50%;
     text-decoration: none;
     margin: 10px;
     margin-top: 20px;
     color: white;
     font-family: 'poppins', sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     background-color: #4D92EB;
     padding: 10px;
     border-radius: 8px;
@@ -162,7 +166,7 @@ main > a:hover{
 main > picture > img{
     margin-top: 30px;
     padding: 10px;
-    width: 100%;
+    width: 96%;
 }
 
 #tec{
@@ -178,12 +182,12 @@ main > picture > img{
 }
 
 #tec > div{
-    width: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     transition: .5s;
     cursor: pointer;
+    width: 100%;
 }
 
 #tec > div > p{
@@ -392,18 +396,17 @@ footer > #areacont > p{
     align-items: center;
     justify-content: center;
     font-family: 'poppins', sans-serif;
-    width: 150px;
+    width: 100%;
     margin-top: 20px;
-    margin-left: 10px;
     text-decoration: none;
     padding: 10px;
     border-radius: 7px;
+    overflow: hidden;
 }
 
 #linkscont > #git{
     background-color: purple;
     color: #ffffff;
-    margin-left: 80px;
 }
 
 #linkscont > #git:hover{
