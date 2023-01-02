@@ -4,8 +4,46 @@
     body{
         background-color: rgba(211, 211, 211, 0.445);
     }
-    #rowh{
+
+    header{
+        height: 57px;
+    }
+
+    header > h1{
+        margin-left: 20px;
+    }
+
+    #burguer{
         display: none;
+    }
+
+    menu{
+        display: block;
+        margin-top: -54px;
+    }
+
+    #homea{
+        display: inline;
+        float: right;
+        font-size: 1.1em;
+        margin-top: 2px;
+        margin-right: 330px;
+    }
+
+    #sobrea{
+        display: inline;
+        float: right;
+        font-size: 1.1em;
+        margin-right: -230px;
+        margin-top: -16px;
+    }
+
+    #projetosa{
+        display: inline;
+        float: right;
+        font-size: 1.1em;
+        margin-right: -350px;
+        margin-top: -33px;
     }
 
     main{
@@ -75,7 +113,12 @@
     body{
         background-color: rgba(211, 211, 211, 0.445);
     }
+
+    header{
+        height: 70px;
+    }
     #burguer{
+        display: none;
         font-size: 2.1em;
         margin-top: -27px;
     }
@@ -84,8 +127,37 @@
         display: none;
     }
 
+    menu{
+        display: block;
+    }
+
+    #homea{
+        display: inline;
+        float: right;
+        font-size: 1.1em;
+        margin-top: -55px;
+        margin-right: 400px;
+    }
+
+    #sobrea{
+        display: inline;
+        float: right;
+        font-size: 1.1em;
+        margin-right: 222px;
+        margin-top: -73px;
+    }
+
+    #projetosa{
+        display: inline;
+        float: right;
+        font-size: 1.1em;
+        margin-right: 90px;
+        margin-top: -90px;
+    }
+
     header > h1{
         margin-top: 20px;
+        margin-left: 30px;
         font-size: 1.3em;
     }
 

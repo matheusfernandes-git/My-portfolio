@@ -42,8 +42,13 @@ header > h1{
     background-color: lightgray;
     transition-duration: 0.5s;
 }
+
 hr{
     margin-top: 6px;
+}
+
+menu{
+    display: none;
 }
 
 menu > ul > li > a{
@@ -59,6 +64,7 @@ menu > ul > li > a{
 
 menu > ul > li > a:hover{
     color: black;
+    text-decoration: underline;
 }
 
 .home{
