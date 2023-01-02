@@ -235,7 +235,7 @@ main > picture > img{
 #portfolio > div > #site, #telalogin, #tabuada{
     border-radius: 10px 10px 0px 0px ;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 40px;
     width: 80%;
     height: 250px;
 }
@@ -243,8 +243,8 @@ main > picture > img{
 #portfolio > div > #imc{
     border-radius: 10px 0px 0px;
     margin-top: 20px;
-    margin-left: 25px;
-    width: 94%;
+    margin-left: 19px;
+    width: 91%;
     height: 250px;
 }
 
@@ -256,7 +256,7 @@ main > picture > img{
     width: 80%;
     margin: 20px;
     margin-top: -4px;
-    margin-left: 50px;
+    margin-left: 40px;
     text-decoration: none;
     background-color: rgb(11, 57, 104);
     color: #ffffff;
@@ -269,8 +269,8 @@ main > picture > img{
 
 #portfolio > div > #linkimc{
     padding: 15px;
-    width: 82%;
-    margin-left: 45px;
+    width: 79%;
+    margin-left: 44px;
 }
 
 #portfolio > div > a:hover{
