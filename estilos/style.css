@@ -9,8 +9,7 @@
 
 body{
     height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
+    width: 100%;
 }
 
 header{
@@ -166,7 +165,7 @@ main > a:hover{
 main > picture > img{
     margin-top: 30px;
     padding: 10px;
-    width: 96%;
+    width: 100%;
 }
 
 #tec{
@@ -197,7 +196,7 @@ main > picture > img{
 }
 
 #tec > div > img{
-    width: 100%;
+    width: 70%;
 }
 
 #tec > #js{
@@ -218,6 +217,10 @@ main > picture > img{
     margin-left: 150px;
 }
 
+#portfolio{
+    width: 100%;
+}
+
 #portfolio > h2{
     font-size: 2.4em;
     font-family: 'Poppins', sans-serif;
@@ -233,7 +236,7 @@ main > picture > img{
     border-radius: 10px 10px 0px 0px ;
     margin-top: 20px;
     margin-left: 50px;
-    width: 400px;
+    width: 80%;
     height: 250px;
 }
 
@@ -241,7 +244,7 @@ main > picture > img{
     border-radius: 10px 0px 0px;
     margin-top: 20px;
     margin-left: 25px;
-    width: 459px;
+    width: 94%;
     height: 250px;
 }
 
@@ -250,7 +253,7 @@ main > picture > img{
     align-items: center;
     justify-content: center;
     font-family: 'poppins', sans-serif;
-    width: 400px;
+    width: 80%;
     margin: 20px;
     margin-top: -4px;
     margin-left: 50px;
@@ -260,8 +263,14 @@ main > picture > img{
     border-radius: 0px 0px 10px 10px;
 }
 
-#portfolio > div > #linksite, #linkimc, #linkl, #linkt{
+#portfolio > div > #linksite, #linkl, #linkt{
     padding: 15px;
+}
+
+#portfolio > div > #linkimc{
+    padding: 15px;
+    width: 82%;
+    margin-left: 45px;
 }
 
 #portfolio > div > a:hover{
