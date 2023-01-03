@@ -36,6 +36,10 @@
         margin-top: -5px;
     }
 
+    .home{
+        height: 550px;
+    }
+
     .home > h1{
         font-size: 3em;
     }
