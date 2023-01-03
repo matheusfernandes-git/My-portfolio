@@ -36,11 +36,8 @@
         margin-top: -5px;
     }
 
-    .home{
-        height: 550px;
-    }
-
     .home > h1{
+        padding-top: 30px;
         font-size: 3em;
     }
 
