@@ -10,6 +10,7 @@
 body{
     height: 100vh;
     min-width: 100%;
+    overflow-x: hidden;
 }
 
 header{
@@ -165,6 +166,9 @@ main > picture > img{
 
 #tec{
     width: 100%;
+    max-width: 550px;
+    text-align: center;
+    margin: auto;
 }
 
 #tec > h2{
