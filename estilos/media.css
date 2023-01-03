@@ -6,7 +6,7 @@
     }
 
     header{
-        height: 57px;
+        height: 530px;
     }
 
     header > h1{
@@ -23,13 +23,11 @@
 
     menu{
         display: block;
-        margin-top: -54px;
     }
 
     menu > ul > li > a{
-        display: inline;
-        float: right;
-        
+        display: inline-;
+        margin-right: 30px;
     }
 
     #homel{
@@ -38,23 +36,23 @@
     }
 
     #tecl{
-        margin-top: -0.1px;
-        margin-right: 300px;
+        margin-top: 0px;
+        margin-right: 0px;
     }
 
     #sobrel{
-        margin-top: -67px;
-        margin-right: 360px;
+        margin-top: 0px;
+        margin-right: 0px;
     }
 
     #projetosl{
-        margin-top: -103px;
-        margin-right: 240px;
+        margin-top: 0px;
+        margin-right: 0px;
     }
 
     #contatol{
-        margin-top: -121px;
-        margin-right: 120px;
+        margin-top: 0px;
+        margin-right: 0px;
     }
 
     .home > h1{
@@ -94,8 +92,8 @@
         width: 22%;
     }
     
-    #sobre > picture > img{    
-        width: 70% ;
+    main > picture > img{    
+        width: 100%;
         height: 60%;
     }
 
@@ -105,35 +103,20 @@
     
     #portfolio > figure{
         width: 60%;
-        max-width: 800px;
-    }
-
-    #imc{
-        width: 60%;
-        margin-left: 200px;
     }
 
     #portfolio > div > #imc{
         width: 60%;
-        max-width: 800px;
         text-align: center;
-        margin-left: 170px;
+        margin-left: 20.3%;
     }
 
     #portfolio > div > #linkimc{
         left: -4.9%;
-        align-items: center;
-        justify-content: center;
-        font-family: 'poppins', sans-serif;
         width: 52.3%;
-        padding: 15px;
-        margin-left: 233px;
+        margin-left: 28.5%;
         margin-bottom: 20px;
         margin-top: -55px;
-        text-decoration: none;
-        background-color: rgb(11, 57, 104);
-        color: #ffffff;
-        border-radius: 0px 0px 10px 10px;
     }
 
     #projetos{
@@ -247,45 +230,36 @@
     }
 
     #tec > div{
-        margin-left: 220px;
         margin-bottom: 50px;
     }
 
     #tec > #js{
-        width: 13%;
+        width: 40%;
     }
     
     #tec > #html{
-        width: 13%;
+        width: 40%;
     }
     
     #tec > #css{
-        width: 13%;
+        margin-top: -10px;
+        width: 40%;
     }
 
     #portfolio > figure{
-        width: 30%;
+        width: 35%;
     }
 
-    #imc{
-        width: 30%;
-        margin-left: 460px;
+    #portfolio > div > #imc{
+        width: 35%;
+        margin-left: 33%;
     }
 
     #portfolio > div > #linkimc{
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'poppins', sans-serif;
-        width: 26%;
-        padding: 15px;
-        margin-left: 483px;
+        left: 34.9%;
+        width: 30.5%;
         margin-bottom: 20px;
-        margin-top: -4px;
-        text-decoration: none;
-        background-color: rgb(11, 57, 104);
-        color: #ffffff;
-        border-radius: 0px 0px 10px 10px;
+        margin-top: -54px;
     }
 
     #linkscont > a{
