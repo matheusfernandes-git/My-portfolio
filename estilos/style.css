@@ -222,7 +222,7 @@ div > h2{
 }
 
 #portfolio figure{
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -230,14 +230,17 @@ div > h2{
     width: 100%;
 }
 
-#portfolio > figure > #site, #imc, #telalogin, #tabuada{
+#portfolio > figure > #site, #telalogin, #tabuada{
     border-radius: 10px 10px 0px 0px;
     margin-top: 20px;
     width: 100%;
 }
 
 #portfolio > div > #imc{
+    margin-top: 20px;
     margin-bottom: 50px;
+    margin-left: 10.2%;
+    width: 80%;
 }
 
 #portfolio > figure > a{
@@ -245,7 +248,6 @@ div > h2{
     align-items: center;
     justify-content: center;
     font-family: 'poppins', sans-serif;
-    width: 100%;
     padding: 15px;
     margin-top: -4px;
     text-decoration: none;
@@ -262,10 +264,10 @@ div > h2{
 #portfolio > div > #linkimc{
     display: block;
     position: absolute;
-    left: 5.4%;
+    left: 14.7%;
     text-align: center;
     font-family:'poppins', sans-serif;
-    width: 87.2%;
+    width: 69.6%;
     padding: 15px;
     margin-top: -55px;
     text-decoration: none;

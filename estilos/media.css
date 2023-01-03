@@ -74,6 +74,10 @@
         font-size: 1.2em;
     }
 
+    #tec{
+        max-width: 800px;
+    }
+
     #tec > div{
         margin: 40px;
     }
@@ -101,6 +105,7 @@
     
     #portfolio > figure{
         width: 60%;
+        max-width: 800px;
     }
 
     #imc{
@@ -108,16 +113,23 @@
         margin-left: 200px;
     }
 
+    #portfolio > div > #imc{
+        width: 60%;
+        max-width: 800px;
+        text-align: center;
+        margin-left: 170px;
+    }
+
     #portfolio > div > #linkimc{
-        display: flex;
+        left: -4.9%;
         align-items: center;
         justify-content: center;
         font-family: 'poppins', sans-serif;
-        width: 52%;
+        width: 52.3%;
         padding: 15px;
         margin-left: 233px;
         margin-bottom: 20px;
-        margin-top: -4px;
+        margin-top: -55px;
         text-decoration: none;
         background-color: rgb(11, 57, 104);
         color: #ffffff;
@@ -126,6 +138,10 @@
 
     #projetos{
         padding-top: 30px;
+    }
+
+    footer{
+        margin-top: 20px;
     }
 
     #linkscont a{
