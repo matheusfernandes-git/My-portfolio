@@ -168,7 +168,7 @@ main > picture > img{
     width: 100%;
     max-width: 550px;
     text-align: center;
-    margin: auto;
+    margin-left: 7%;
 }
 
 #tec > h2{
