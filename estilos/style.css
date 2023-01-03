@@ -223,19 +223,20 @@ div > h2{
     margin: auto;
 }
 
-#portfolio > figure > #site, #imc, #telalogin, #tabuada{
+#portfolio > figure > img{
+    width: 100%;
+}
+
+#portfolio > figure > #site, #telalogin, #tabuada{
     border-radius: 10px 10px 0px 0px;
     margin-top: 20px;
     width: 100%;
 }
 
-#portfolio > figure > img{
-    width: 100%;
-}
-
-#portfolio > figure > #imc{
-    border-radius: 10px 0px 0px;
+#portfolio > div > #imc{
+    border-radius: 10px 10px 0px 0px;
     margin-top: 20px;
+    margin-left: 5px;
     width: 100%;
 }
 
@@ -253,27 +254,29 @@ div > h2{
     border-radius: 0px 0px 10px 10px;
 }
 
-
 #portfolio > figure > a:hover{
     transition: 0.5s;
     background-color: #366db4;
 }
 
 #portfolio > div > #linkimc{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    text-align: center;
     font-family: 'poppins', sans-serif;
-    width: 87%;
+    max-width: 87%;
     padding: 15px;
     margin: auto;
-    margin-left: 29px;
     margin-bottom: 20px;
     margin-top: -4px;
     text-decoration: none;
     background-color: rgb(11, 57, 104);
     color: #ffffff;
     border-radius: 0px 0px 10px 10px;
+}
+
+#portfolio > div > #linkimc:hover{
+    transition: 0.5s;
+    background-color: #366db4;
 }
 
 footer{
