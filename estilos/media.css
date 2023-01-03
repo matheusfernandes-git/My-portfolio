@@ -2,7 +2,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px){
 
     body{
-        background-color: rgba(211, 211, 211, 0.445);
+        background-color: #ffffff;
     }
 
     header{
@@ -17,147 +17,170 @@
         display: none;
     }
 
+    #rowh{
+        margin-top: 0px;
+    }
+
     menu{
         display: block;
         margin-top: -54px;
     }
 
+    menu > ul > li > a{
+        display: inline;
+        float: right;
+        
+    }
+
+    #homel{
+        margin-top: 0px;
+        margin-right: 00px ;
+    }
+
+    #tecl{
+        margin-top: -0.1px;
+        margin-right: 300px;
+    }
+
+    #sobrel{
+        margin-top: -67px;
+        margin-right: 360px;
+    }
+
+    #projetosl{
+        margin-top: -103px;
+        margin-right: 240px;
+    }
+
+    #contatol{
+        margin-top: -121px;
+        margin-right: 120px;
+    }
+
     .home > h1{
-        padding-top: 300px;
+        padding-top: 100px;
         font-size: 3em;
     }
 
-    #homea{
-        display: inline;
-        float: right;
-        font-size: 1.1em;
-        margin-top: 2px;
-        margin-right: 330px;
-    }
-
-    #sobrea{
-        display: inline;
-        float: right;
-        font-size: 1.1em;
-        margin-right: -230px;
-        margin-top: -16px;
-    }
-
-    #projetosa{
-        display: inline;
-        float: right;
-        font-size: 1.1em;
-        margin-right: -350px;
-        margin-top: -33px;
-    }
-
-    main{
-        background-color: #ffffff;
-        width: 80%;
-        max-height: 1100px;
-        min-width: 300px;
-        max-width: 1000px;
-        padding: 10px;
-        padding-bottom: 30px;
-        margin: auto;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px; 
-        box-shadow: 0px 0px 4px #00000050;
+    .home > p{
+        font-size: 1.5em;
     }
 
     main h2{
         margin-top: 10px;
     }
+
     main p{
-        font-size: 1.050em;
+        font-size: 1.2em;
     }
 
-    .sobre > picture > img{    
+    #tec > div{
+        margin: 40px;
+    }
+
+    #tec > #js{
+        width: 22%;
+    }
+    
+    #tec > #html{
+        width: 22%;
+    }
+    
+    #tec > #css{
+        width: 22%;
+    }
+    
+    #sobre > picture > img{    
         width: 70% ;
         height: 60%;
     }
 
-    .sobre > a{
+    #sobre > a{
         max-width: 540px;
     }
-
-    aside{
-        height: 200px;
-        margin-top: 40px;
-        padding: 20px;
-        padding-bottom: 30px;
-    }
-    aside > h2{
-        font-size: 1.8em;
-        margin-right:-20px;
-        margin-left: -20px;
-        margin-top: -20px;
-        padding: 10px;
-    }
-
-    aside > p, nav{
-        margin-left: -10px;
-    }
     
-    #portfolio{
-        width: 50%;
-        margin-top: 100px;
-        border-radius: 8px;
+    #portfolio > figure{
+        width: 60%;
     }
 
-    #fp{
-        display: none;
+    #imc{
+        width: 60%;
+        margin-left: 200px;
     }
-    
-    #fh{
-        margin-top: 0px;
+
+    #portfolio > div > #linkimc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'poppins', sans-serif;
+        width: 52%;
+        padding: 15px;
+        margin-left: 233px;
+        margin-bottom: 20px;
+        margin-top: -4px;
+        text-decoration: none;
+        background-color: rgb(11, 57, 104);
+        color: #ffffff;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    #projetos{
+        padding-top: 30px;
+    }
+
+    #linkscont a{
+        width: 40%;
+        margin-top: 20px;
+        margin-left: 30%;
     }
 }
     @media screen and (min-width: 992px) and (max-width: 1920px){
 
-    body{
-        background-color: rgba(211, 211, 211, 0.445);
+    header{
+        height: 65px;
     }
 
-    header{
-        height: 70px;
-    }
     #burguer{
         display: none;
-        font-size: 2.1em;
-        margin-top: -27px;
     }
 
     #rowh{
-        display: none;
+        margin: 100px;
     }
 
     menu{
         display: block;
     }
 
-    #homea{
+    
+    menu > ul > li > a{
         display: inline;
         float: right;
-        font-size: 1.1em;
-        margin-top: -55px;
-        margin-right: 400px;
+        margin-top: -50px;
     }
 
-    #sobrea{
-        display: inline;
-        float: right;
-        font-size: 1.1em;
-        margin-right: 222px;
-        margin-top: -73px;
+    #homel{
+        margin-right: 600px;
     }
 
-    #projetosa{
-        display: inline;
-        float: right;
-        font-size: 1.1em;
-        margin-right: 90px;
-        margin-top: -90px;
+    #tecl{
+        margin-top: -86px;
+        margin-right: 460px;
+    }
+
+    #sobrel{
+        margin-top: -67px;
+        margin-right: 360px;
+    }
+
+    #projetosl{
+        margin-top: -103px;
+        margin-right: 240px;
+    }
+
+    #contatol{
+        margin-top: -121px;
+        margin-right: 120px;
     }
 
     header > h1{
@@ -173,89 +196,84 @@
 
     .home{
         max-width: 100%;
+        padding: 50px;
     }
 
     .home > h1{
-        padding-top: 300px;
-        font-size: 4em;
+        font-size: 3em;
     }
 
     main{
-        background-color: #ffffff;
-        width: 100vw;
-        max-height: 1280px;
-        min-width: 300px;
-        max-width: 950px;
-        padding: 10px;
-        margin: auto;
         padding-bottom: 30px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px; 
-        box-shadow: 0px 0px 4px #00000050;
     }
 
     main h2{
         margin-top: 10px;
-        font-size: 1.8em;
+        font-size: 2.2em;
     }
 
-    main p{
-        margin-top: 20px;
-        font-size: 1.1em;
-        text-indent: 20px;
-        text-align: justify;
+    main > strong > .pc{
+        text-align: center;
+        font-size: 1.2em;
     }
 
     main a{
         width: 25%;
+        margin-left: 38%;
     }
 
-    main img{   
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       width: 100%; 
+    main > picture > img{
+       display: none;
     }
 
-    aside{
-        height: 200px;
-        margin-top: 30px;
-        padding: 20px;
-        padding-bottom: 30px;
-    }
-    aside > h2{
-        font-size: 1.8em;
-        margin-right:-20px;
-        margin-left: -20px;
-        margin-top: -20px;
-        padding: 10px;
+    #tec > h2{
+        font-size: 2.7em;
     }
 
-    aside > p, nav{
-        text-indent: 0px;
-        margin-left: -10px;
+    #tec > div{
+        margin-left: 220px;
+        margin-bottom: 50px;
     }
 
-    #portfolio{
-        max-width: 45%;
-        height: 650px;
-        margin-top: 100px;
-        border-radius: 8px;
+    #tec > #js{
+        width: 13%;
+    }
+    
+    #tec > #html{
+        width: 13%;
+    }
+    
+    #tec > #css{
+        width: 13%;
     }
 
-    #portfolio > .h2{
-        margin-top: 3px;
+    #portfolio > figure{
+        width: 30%;
     }
 
-    #works > a{
-        width: 40%;
+    #imc{
+        width: 30%;
+        margin-left: 460px;
     }
 
-    #fp{
-        display: none;
+    #portfolio > div > #linkimc{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'poppins', sans-serif;
+        width: 26%;
+        padding: 15px;
+        margin-left: 483px;
+        margin-bottom: 20px;
+        margin-top: -4px;
+        text-decoration: none;
+        background-color: rgb(11, 57, 104);
+        color: #ffffff;
+        border-radius: 0px 0px 10px 10px;
     }
 
-    #fh{
-        margin-top: 0px;
+    #linkscont > a{
+        width: 20%;
+        margin-left: 40%;
     }
 }

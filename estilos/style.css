@@ -114,18 +114,13 @@ main > h2{
     font-family: 'Poppins', sans-serif;
 }
 
-main > img{
-    margin-top: 50px;
-    margin-left: 28px;
-    width: 700px;
-}
-
 main > p{
     color: #ffffff;
     font-size: 1.2em;
     padding: 10px;
     width: 100%;
     text-indent: 10px;
+    text-align: justify;
     line-height: 30px;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -171,6 +166,7 @@ main > picture > img{
 
 #tec{
     width: 100%;
+    margin: 20px;
 }
 
 #tec > h2{
@@ -217,7 +213,6 @@ main > picture > img{
 
 #portfolio{
     width: 100vw;
-    max-width: 700px;
 }
 
 div > h2{
@@ -236,9 +231,7 @@ div > h2{
 #portfolio > figure > #site, #imc, #telalogin, #tabuada{
     border-radius: 10px 10px 0px 0px;
     margin-top: 20px;
-
     width: 100%;
-    height: 250px;
 }
 
 #portfolio > figure > img{
@@ -249,7 +242,6 @@ div > h2{
     border-radius: 10px 0px 0px;
     margin-top: 20px;
     width: 100%;
-    height: 250px;
 }
 
 #portfolio > figure > a{
@@ -258,6 +250,7 @@ div > h2{
     justify-content: center;
     font-family: 'poppins', sans-serif;
     width: 100%;
+    padding: 15px;
     margin-top: -4px;
     text-decoration: none;
     background-color: rgb(11, 57, 104);
@@ -265,120 +258,27 @@ div > h2{
     border-radius: 0px 0px 10px 10px;
 }
 
-#portfolio > figure > #linksite, #linkl, #linkt{
-    padding: 15px;
-}
-
-#portfolio > figure > #linkimc{
-    padding: 15px;
-    margin: 24px;
-    margin-top: -4px;
-    width: 87.4%;
-}
 
 #portfolio > figure > a:hover{
     transition: 0.5s;
     background-color: #366db4;
 }
 
-.works a{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    background-color: rgb(105, 102, 102);
-    color: #ffffff;
-    width: 50%;
+#portfolio > div > #linkimc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins', sans-serif;
+    width: 87%;
+    padding: 15px;
     margin: auto;
-    padding: 10px;
-    border-radius: 6px;
-    transition-duration: 0.5s;
-}
-
-#pra{
-    margin-top: 50px;
-}
-
-#primc{
-    margin-top: 30px;
-}
-
-#prlog{
-    margin-top: 30px;
-}
-
-#prtab{
-    margin-top: 30px;
-}
-
-.works a:hover{
-    background-color: rgba(105, 102, 102, 0.644);
-}
-
-aside{
-    border: 1px solid rgba(0, 0, 0, 0.301);
-    border-radius: 7px;
-    padding: 5px;
-    margin-bottom: 30px;
-    width: 97%;
-    margin: auto;
-    box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.308);
-}
-
-aside > h2{
-    font-family: 'Poppins, sans-serif';
-    font-weight: lighter;
-    background-color: rgba(211, 211, 211, 0.445);
-    padding: 10px;
-    margin: -6px -6px 0 -6px;
-}
-
-nav{
-    margin-top: 30px;
-    margin-bottom: 15px;
-}
-
-aside > p{
-    margin-top: 10px;
-}
-
-.gh{    
-    color: #ffffff;
-    background-color: rgba(255, 166, 0, 0.705);
-    padding: 10px;
-    border-radius: 8px;
+    margin-left: 29px;
+    margin-bottom: 20px;
+    margin-top: -4px;
     text-decoration: none;
-}
-
-.gh:hover{
-    background-color: rgba(255, 166, 0, 0.795);
-}
-
-.lk{
+    background-color: rgb(11, 57, 104);
     color: #ffffff;
-    background-color: rgba(7, 156, 241, 0.705);
-    padding: 10px;
-    border-radius: 8px;
-    text-decoration: none;
-}
-
-.lk:hover{
-    background-color: rgba(7, 156, 241, 0.795);
-}
-
-.inst{
-    color: #ffffff;
-    background-color: rgba(128, 0, 128, 0.705);
-    padding: 10px;
-    border-radius: 8px;
-    text-decoration: none;
-}
-
-.inst:hover{
-    background-color: rgba(128, 0, 128, 0.795);
-}
-
-#fp{
-    margin-top: 46%;
+    border-radius: 0px 0px 10px 10px;
 }
 
 footer{
@@ -408,8 +308,9 @@ footer > #areacont > p{
     align-items: center;
     justify-content: center;
     font-family: 'poppins', sans-serif;
-    width: 100%;
+    width: 40%;
     margin-top: 20px;
+    margin-left: 30%;
     text-decoration: none;
     padding: 10px;
     border-radius: 7px;
