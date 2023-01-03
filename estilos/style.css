@@ -9,7 +9,7 @@
 
 body{
     height: 100vh;
-    width: 100%;
+    min-width: 100%;
     overflow-x: hidden;
 }
 
@@ -166,7 +166,6 @@ main > picture > img{
 
 #tec{
     width: 100%;
-    margin: 20px;
 }
 
 #tec > h2{
@@ -209,10 +208,6 @@ main > picture > img{
     width: 40%;
     margin-top: 50px;
     align-items: center;
-}
-
-#portfolio{
-    width: 100vw;
 }
 
 div > h2{
