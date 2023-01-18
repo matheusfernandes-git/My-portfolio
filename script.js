@@ -1,4 +1,4 @@
-function mudoutamanho(){
+function changeSize(){
     if(innerWidth >= 768){
         itens.style.display == 'block'
     }else{
