@@ -230,10 +230,14 @@ div > h2{
     width: 100%;
 }
 
-#portfolio > figure > #site, #telalogin, #tabuada{
+#portfolio > figure > #landing-page, #telalogin, #tabuada{
     border-radius: 10px 10px 0px 0px;
     margin-top: 20px;
     width: 100%;
+}
+
+#portfolio > figure > #landing-page{
+    border: 1px solid rgba(0, 0, 0, 0.062);
 }
 
 #portfolio > div > #imc{
