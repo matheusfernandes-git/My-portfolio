@@ -47,7 +47,7 @@ header > h1{
 
 #burguer:hover{
     background-color: #4D92EB;
-    transition-duration: 0.5s;
+    transition: 0.5s;
 }
 
 hr{
