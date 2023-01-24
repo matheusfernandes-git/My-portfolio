@@ -9,15 +9,15 @@
 
 body{
     height: 100vh;
-    min-width: 100%;
     overflow-x: hidden;
 }
 
 header{
+    width: 100%;
     background-color: #1F3B5E;
     overflow: hidden;
-    position: sticky;
-    top: -1px;
+    position: fixed;
+    z-index: 1000;
 }
 
 header > h1{
