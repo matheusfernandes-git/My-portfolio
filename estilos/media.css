@@ -6,12 +6,11 @@
     }
 
     header{
-        height: 70px;
+        height: 65px;
     }
 
     header > h1{
-        display: none;
-        margin-left: 76%;
+        margin-top: 15px;
     }
 
     #burguer{
@@ -19,25 +18,25 @@
     }
 
     #rowh{
-        margin-top: -4px;
+        display: none;
     }
 
     #rowheader{
-        display: none;
+        margin-top: 30px;
     }
 
     menu{
         display: block;
     }
 
-    menu > ul > li{
-        display: inline-block;
-        margin-right: 2px;
-        margin-top: -5px;
+    menu > ul{
+        display: inline-flex;
+        float: right;
+        margin-top: -73px;
     }
 
     .home > h1{
-        padding-top: 40px;
+        padding-top: 150px;
         font-size: 3em;
     }
 
@@ -114,14 +113,15 @@
         margin-left: 30%;
     }
 }
-    @media screen and (min-width: 992px) and (max-width: 1920px){
+    @media screen and (min-width: 992px) and (max-width: 2685px){
 
     header{
         height: 65px;
     }
 
     header > h1{
-        display: none;
+        margin-top: 15px;
+        padding: 0px;
     }
 
     #burguer{
@@ -129,21 +129,22 @@
     }
 
     #rowh{
-        margin-top: -6px;
+        display: none;
     }
 
     #rowheader{
-        display: none;
+        margin-top: 28px;
     }
 
     menu{
         display: block;
     }
 
-    menu > ul > li{
-        display: inline-block;
-        margin-right: 2px;
-        margin-top: -8px;
+    menu > ul{
+        display: inline-flex;
+        float: right;
+        margin-top: -80px;
+        padding: 10px;
     }
 
     header > h1{
@@ -159,7 +160,8 @@
 
     .home{
         max-width: 100%;
-        padding: 50px;
+        padding-top: 10em;
+        height: 55vh;
     }
 
     .home > h1{
