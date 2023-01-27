@@ -103,6 +103,56 @@ menu > ul > li > a:hover{
     margin-top: 20px;
 }
 
+#tec{
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+    margin: auto;
+}
+
+#tec > h2{
+    font-size: 2.4em;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tec > div{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: .5s;
+    margin-left: 35px;
+}
+
+#tec > div > p{
+    text-align: center;
+    font-family: 'poppins';
+    padding: 8px;
+    width: 100%;
+}
+
+#tec > div > img{
+    width: 100%;
+}
+
+#tec > #js{
+    width: 40%;
+    margin-top: 30px;
+}
+
+#tec > #html{
+    width: 40%;
+}
+
+#tec > #css{
+    width: 40%;
+    margin-top: 50px;
+    align-items: center;
+}
+
+
 main{
     background-color: black;
     width: 100%;
@@ -162,58 +212,10 @@ main > a:hover{
 }
 
 main > picture > img{
+    text-align: center;
     margin-top: 30px;
     padding: 10px;
     width: 100%;
-}
-
-#tec{
-    width: 100%;
-    max-width: 550px;
-    text-align: center;
-    margin: auto;
-}
-
-#tec > h2{
-    font-size: 2.4em;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#tec > div{
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    transition: .5s;
-    margin-left: 35px;
-}
-
-#tec > div > p{
-    text-align: center;
-    font-family: 'poppins';
-    padding: 8px;
-    width: 100%;
-}
-
-#tec > div > img{
-    width: 100%;
-}
-
-#tec > #js{
-    width: 40%;
-    margin-top: 30px;
-}
-
-#tec > #html{
-    width: 40%;
-}
-
-#tec > #css{
-    width: 40%;
-    margin-top: 50px;
-    align-items: center;
 }
 
 #portfolio h2{
@@ -305,7 +307,7 @@ footer > #areacont > p{
     color: #ffffffda;
     font-size: 1.1em;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 65px;
 }
 
 #strongemail{
