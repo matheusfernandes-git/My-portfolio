@@ -216,7 +216,7 @@ main > picture > img{
     align-items: center;
 }
 
-div > h2{
+#portfolio h2{
     font-size: 2.4em;
     font-family: 'Poppins', sans-serif;
     text-align: center;
