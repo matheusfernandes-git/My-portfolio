@@ -77,7 +77,7 @@ menu > ul > li > a:hover{
     text-decoration: underline;
 }
 
-.home{
+#home{
     background-color: rgba(0, 0, 0, 0.781);
     background-image: url('../imagens/pexels-neo-2653362.jpg');
     background-position: left;
@@ -87,7 +87,7 @@ menu > ul > li > a:hover{
     height: 55vh;
 }
 
-.home > h1{
+#home > h1{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -96,7 +96,7 @@ menu > ul > li > a:hover{
     padding-top: 100px;
 }
 
-.home > p{
+#home > p{
     color: #ffffffd0;
     text-align: center;
     font-size: 1.4em;
@@ -220,8 +220,8 @@ div > h2{
     font-size: 2.4em;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 50px;
 }
 
 #portfolio figure{
@@ -239,7 +239,7 @@ div > h2{
     width: 100%;
 }
 
-#portfolio > figure > #landing-page{
+#portfolio > figure > #landing-page, #ecommerce{
     border: 1px solid rgba(0, 0, 0, 0.062);
 }
 
@@ -290,7 +290,8 @@ div > h2{
 
 footer{
     background-color: #1F3B5E;
-    margin-top: 30px;
+    margin-top: 50px;
+    height: 40vh;
 }
 
 footer > h2{

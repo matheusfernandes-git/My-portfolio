@@ -103,10 +103,6 @@
         padding-top: 30px;
     }
 
-    footer{
-        margin-top: 20px;
-    }
-
     #linkscont a{
         width: 40%;
         margin-top: 20px;
@@ -158,13 +154,13 @@
         padding: 10px;
     }
 
-    .home{
+    #home{
         max-width: 100%;
         padding-top: 10em;
         height: 55vh;
     }
 
-    .home > h1{
+    #home > h1{
         padding-top: 30px;
         font-size: 3.3em;
     }
