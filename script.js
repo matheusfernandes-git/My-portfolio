@@ -1,8 +1,8 @@
 function changeSize(){
     if(innerWidth >= 768){
-        itens.style.display == 'block'
+        itens.style.display = 'block'
     }else{
-        itens.style.display == 'none'
+        itens.style.display = 'none'
     }
 }
 
