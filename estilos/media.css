@@ -1,4 +1,5 @@
 
+
 @media screen and (min-width: 768px) and (max-width: 992px){
 
     body{
@@ -35,12 +36,16 @@
         margin-top: -73px;
     }
 
-    .home > h1{
+    #home{
+        height: 60vh;
+    }
+
+    #home > h1{
         padding-top: 150px;
         font-size: 3em;
     }
 
-    .home > p{
+    #home > p{
         font-size: 1.5em;
     }
 
@@ -108,6 +113,11 @@
         margin-top: 20px;
         margin-left: 30%;
     }
+
+    footer{
+        height: 50vh;
+    }
+
 }
     @media screen and (min-width: 992px) and (max-width: 2685px){
 
@@ -228,5 +238,9 @@
     #linkscont > a{
         width: 20%;
         margin-left: 40%;
+    }
+
+    footer{
+        height: 50vh;
     }
 }
