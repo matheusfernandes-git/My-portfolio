@@ -199,7 +199,9 @@
     }
 
     #tec > h2{
-        font-size: 2.7em;
+        font-size: 2.8em;
+        margin-top: 30px;
+        padding-bottom: 20px;
     }
 
     #tec > div{
@@ -233,6 +235,10 @@
         width: 30.5%;
         margin-bottom: 20px;
         margin-top: -54px;
+    }
+
+    #portfolio h2{
+        font-size: 2.8em;
     }
 
     #linkscont > a{
