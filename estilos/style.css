@@ -104,7 +104,6 @@ menu > ul > li > a:hover{
 }
 
 #tec{
-    width: 100%;
     max-width: 550px;
     text-align: center;
     margin: auto;
@@ -120,10 +119,10 @@ menu > ul > li > a:hover{
 
 #tec > div{
     display: inline-flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
     transition: .5s;
-    margin-left: 35px;
+    width: 40%;
 }
 
 #tec > div > p{
@@ -138,20 +137,12 @@ menu > ul > li > a:hover{
 }
 
 #tec > #js{
-    width: 40%;
     margin-top: 30px;
 }
 
-#tec > #html{
-    width: 40%;
-}
-
 #tec > #css{
-    width: 40%;
     margin-top: 50px;
-    align-items: center;
 }
-
 
 main{
     background-color: black;
