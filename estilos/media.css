@@ -1,5 +1,3 @@
-
-
 @media screen and (min-width: 768px) and (max-width: 992px){
 
     body{
@@ -221,20 +219,15 @@
         width: 40%;
     }
 
+    #portfolio{
+        width: 100%;
+        text-align: center;
+    }
+
     #portfolio > figure{
         width: 35%;
-    }
-
-    #portfolio > div > #imc{
-        width: 35%;
-        margin-left: 33%;
-    }
-
-    #portfolio > div > #linkimc{
-        left: 34.9%;
-        width: 30.5%;
-        margin-bottom: 20px;
-        margin-top: -54px;
+        display: inline-block;
+        margin-right: 50px;
     }
 
     #portfolio h2{
