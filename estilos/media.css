@@ -220,14 +220,14 @@
     }
 
     #portfolio{
-        width: 100%;
         text-align: center;
     }
 
     #portfolio > figure{
-        width: 35%;
+        width: 30%;
         display: inline-block;
         margin-right: 50px;
+        
     }
 
     #portfolio h2{
