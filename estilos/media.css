@@ -226,12 +226,12 @@
     #portfolio > figure{
         width: 30%;
         display: inline-block;
-        margin-right: 50px;
-        
+        margin-right: 50px;    
     }
 
     #portfolio h2{
         font-size: 2.8em;
+        padding-bottom: 40px;
     }
 
     #linkscont > a{
@@ -240,6 +240,7 @@
     }
 
     footer{
+        margin-top: 100px;
         height: 40vh;
     }
 }
