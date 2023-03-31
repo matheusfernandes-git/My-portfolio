@@ -226,13 +226,13 @@ main > picture > img{
     width: 100%;
 }
 
-#portfolio > figure > #landing-page, #ecommerce, #telalogin, #tabuada, #lorem-flix, #imc, #porsche{
+#portfolio #landing-page, #ecommerce, #telalogin, #tabuada, #lorem-flix, #imc, #porsche{
     border-radius: 10px 10px 0px 0px;
     margin-top: 30px;
     width: 100%;
 }
 
-#portfolio > figure > #landing-page, #ecommerce, #porsche{
+#portfolio #landing-page, #ecommerce, #porsche{
     border: 1px solid rgba(0, 0, 0, 0.062);
 }
 
