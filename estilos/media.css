@@ -123,7 +123,7 @@
         height: 65px;
     }
 
-    header > h1{
+    header h1{
         margin-top: 15px;
         padding: 0px;
     }

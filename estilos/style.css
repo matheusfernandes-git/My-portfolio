@@ -21,12 +21,12 @@ header{
     z-index: 1000;
 }
 
-header > h1{
+header h1{
     color: #ffffffd0;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 10px;
     margin-top: 8px;
     margin-bottom: -10px;
+    margin-left: 10px;
     font-size: 1.3em;
     font-weight: lighter;
     padding: 2px;
