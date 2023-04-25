@@ -202,7 +202,7 @@ main > a{
 }
 
 main > a:hover{
-    background-color: #1F3B5E;
+    background-color: #1f61b3;
     transition-duration: 0.3s;
 }
 
