@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
 
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'DM Sans', sans-serif;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     list-style-type: none;
     scroll-behavior: smooth;
+}
+
+h2{
+    font-size: 40px;
 }
 
 body{
@@ -111,7 +115,6 @@ menu > ul > li > a:hover{
 }
 
 #tec > h2{
-    font-size: 2.4em;
     text-align: center;
     padding: 10px;
     margin-top: 20px;
@@ -210,10 +213,12 @@ main > picture > img{
     width: 100%;
 }
 
-#portfolio h2{
-    font-size: 2.4em;
-    font-family: 'Poppins', sans-serif;
+#portfolio{
     text-align: center;
+}
+
+#portfolio h2{
+    font-family: 'Poppins', sans-serif;
     margin-top: 60px;
     margin-bottom: 50px;
 }
@@ -221,15 +226,11 @@ main > picture > img{
 #portfolio figure{
     width: 80%;
     margin: auto;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 30px;
 }
 
 #portfolio > figure > img{
-    width: 100%;
-}
-
-#portfolio #landing-page, #ecommerce, #telalogin, #tabuada, #lorem-flix, #imc, #porsche{
-    border-radius: 10px 10px 0px 0px;
-    margin-top: 30px;
     width: 100%;
 }
 
@@ -292,7 +293,6 @@ footer > h2{
     padding: 15px;
     color: #ffffff;
     text-align: center;
-    font-size: 2.2em;
 }
 
 footer > #areacont > p{
