@@ -106,12 +106,6 @@
         padding-top: 30px;
     }
 
-    #linkscont a{
-        width: 40%;
-        margin-top: 20px;
-        margin-left: 30%;
-    }
-
     footer{
         height: 50vh;
     }
@@ -236,8 +230,6 @@
     }
 
     #linkscont > a{
-        width: 20%;
-        margin-left: 40%;
     }
 
     footer{

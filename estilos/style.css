@@ -202,7 +202,7 @@ main > a{
 }
 
 main > a:hover{
-    background-color: #1f61b3;
+    background-color: #2b60a0;
     transition-duration: 0.3s;
 }
 
@@ -225,6 +225,10 @@ main > picture > img{
 
 #portfolio figure{
     width: 80%;
+    margin: auto;
+}
+
+#landing-page, #ecommerce, #porsche, #imc, #telalogin, #tabuada, #loremflix{
     margin: auto;
     border-radius: 10px 10px 0px 0px;
     margin-top: 30px;
@@ -295,47 +299,52 @@ footer > h2{
     text-align: center;
 }
 
-footer > #areacont > p{
+#areacont #email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #ffffffda;
     font-size: 1.1em;
-    text-align: center;
     margin-top: 40px;
 }
 
-#strongemail{
-    color: #ffffff;
+#areacont img{
+    margin: 2px;
+}
+
+
+#linkscont{
+    text-align: center;
 }
 
 #linkscont a{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-family: 'poppins', sans-serif;
-    width: 40%;
+    margin-right: 10px;
     margin-top: 20px;
-    margin-left: 30%;
-    text-decoration: none;
-    padding: 10px;
     border-radius: 7px;
-    overflow: hidden;
 }
 
 #linkscont > #git{
-    background-color: purple;
     color: #ffffff;
 }
 
 #linkscont > #git:hover{
-    background-color: rgba(128, 0, 128, 0.753);
     transition: 0.5s;
 }
 
 #linkscont > #linkedin{
-    background-color: #0A66C2;
     color: #ffffff;
 }
 
 #linkscont > #linkedin:hover{
-    background-color: #488ed4ea;
     transition: 0.5s;
+}
+
+footer p{
+    color: #ffffffda;
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 40px;
 }
