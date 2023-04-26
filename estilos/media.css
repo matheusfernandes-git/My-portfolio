@@ -107,7 +107,7 @@
     }
 
     footer{
-        height: 50vh;
+        height: 40vh;
     }
 
 }
@@ -229,11 +229,8 @@
         padding-bottom: 40px;
     }
 
-    #linkscont > a{
-    }
-
     footer{
         margin-top: 100px;
-        height: 40vh;
+        height: 35vh;
     }
 }

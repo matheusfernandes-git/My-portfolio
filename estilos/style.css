@@ -289,8 +289,8 @@ main > picture > img{
 
 footer{
     background-color: #1F3B5E;
-    margin-top: 50px;
-    height: 53vh;
+    margin-top: 100px;
+    height: 50vh;
 }
 
 footer > h2{
@@ -312,7 +312,6 @@ footer > h2{
     margin: 2px;
 }
 
-
 #linkscont{
     text-align: center;
 }
@@ -321,9 +320,13 @@ footer > h2{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
+    margin-right: 2px;
     margin-top: 20px;
     border-radius: 7px;
+}
+
+#linkscont img{
+    width: 80%;
 }
 
 #linkscont > #git{
