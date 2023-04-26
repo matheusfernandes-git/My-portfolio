@@ -148,12 +148,12 @@ menu > ul > li > a:hover{
     margin-top: 50px;
 }
 
-main{
+#about{
     background-color: black;
     width: 100%;
 }
 
-main > h2{
+#about > h2{
     color: #ffffff;
     font-size: 2.4em;
     padding: 7px;
@@ -162,7 +162,7 @@ main > h2{
     font-family: 'Poppins', sans-serif;
 }
 
-main > p{
+#about > p{
     color: #ffffff;
     font-size: 1.2em;
     padding: 10px;
@@ -178,22 +178,24 @@ main > p{
     color: #4D92EB;
 }
 
-main .pc{
+#about .pc{
     color: #ffffff;
     text-indent: 0px;
     margin: 10px;
 }
 
-main > a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
+#about div{
+    text-align: center;
+}
+
+#about div p{
+    padding-bottom: 30px;
+}
+
+#about div a{
     text-decoration: none;
-    margin: 10px;
-    margin-top: 20px;
     color: white;
-    font-family: 'poppins', sans-serif;
+    font-weight: bold;
     font-size: 1.1em;
     background-color: #4D92EB;
     padding: 10px;
@@ -201,12 +203,12 @@ main > a{
     transition-duration: 0.7s;
 }
 
-main > a:hover{
+#about div a:hover{
     background-color: #2b60a0;
     transition-duration: 0.3s;
 }
 
-main > picture > img{
+#about > picture > img{
     text-align: center;
     margin-top: 30px;
     padding: 10px;
@@ -226,12 +228,11 @@ main > picture > img{
 #portfolio figure{
     width: 80%;
     margin: auto;
+    margin-top: 30px;
 }
 
-#landing-page, #ecommerce, #porsche, #imc, #telalogin, #tabuada, #loremflix{
-    margin: auto;
+#landing-page, #porsche, #imc, #telalogin, #tabuada, #loremflix{
     border-radius: 10px 10px 0px 0px;
-    margin-top: 30px;
 }
 
 #portfolio > figure > img{

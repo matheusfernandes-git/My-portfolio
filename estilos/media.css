@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media (min-width: 768px) and (max-width: 992px){
 
     body{
         background-color: #ffffff;
@@ -47,15 +47,19 @@
         font-size: 1.5em;
     }
 
-    main h2{
+    #about h2{
         margin-top: 10px;
     }
 
-    main p{
+    #about p{
         font-size: 1.2em;
     }
 
-    main > picture > img{    
+    #about div a{
+        width: 25%;
+    }
+
+    #about > picture > img{    
         height: 60%;
     }
 
@@ -111,7 +115,7 @@
     }
 
 }
-    @media screen and (min-width: 992px) and (max-width: 2685px){
+    @media (min-width: 992px) and (max-width: 2685px){
 
     header{
         height: 65px;
@@ -167,26 +171,30 @@
         font-size: 3.3em;
     }
 
-    main{
-        padding-bottom: 30px;
+    #about{
+        padding: 20px;
+        padding-bottom: 50px;
     }
 
-    main h2{
+    #about h2{
         margin-top: 10px;
         font-size: 2.2em;
     }
 
-    main > strong > .pc{
+    #about .pc{
         text-align: center;
         font-size: 1.2em;
     }
 
-    main a{
+    #about div a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 25%;
         margin-left: 38%;
     }
 
-    main > picture > img{
+    #about > picture > img{
        display: none;
     }
 
