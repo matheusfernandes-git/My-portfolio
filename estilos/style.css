@@ -87,20 +87,22 @@ menu > ul > li > a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 55vh;
+    height: 50vh;
 }
 
-#home > h1{
+#home div{
     text-align: center;
+    padding-top: 130px;
+}
+
+#home div h1{
     font-weight: bolder;
     font-size: 2.1em;
     color: #ffffff;
-    padding-top: 100px;
 }
 
-#home > p{
+#home div p{
     color: #ffffffd0;
-    text-align: center;
     font-size: 1.2em;
     margin-top: 20px;
 }
