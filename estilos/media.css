@@ -65,7 +65,7 @@
         height: 65px;
     }
 
-    header h1{
+    header a{
         margin-top: 15px;
         padding: 0px;
     }
@@ -79,7 +79,7 @@
     }
 
     #rowheader{
-        margin-top: 28px;
+        margin-top: 33px;
     }
 
     menu{

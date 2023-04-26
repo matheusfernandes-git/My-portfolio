@@ -26,14 +26,15 @@ header{
     z-index: 1000;
 }
 
-header h1{
+header a{
+    display: flex;
     color: #ffffffd0;
-    margin-top: 8px;
+    margin-top: 10px;
     margin-bottom: -10px;
     margin-left: 10px;
     font-size: 1.3em;
-    font-weight: lighter;
     padding: 2px;
+    text-decoration: none;
 }
 
 #burguer{
