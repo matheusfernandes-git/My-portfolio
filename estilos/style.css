@@ -231,7 +231,7 @@ menu > ul > li > a:hover{
     margin-bottom: 50px;
 }
 
-#portfolio figure{
+#container-project figure{
     width: 80%;
     margin: auto;
     margin-top: 30px;
@@ -241,7 +241,7 @@ menu > ul > li > a:hover{
     border-radius: 10px 10px 0px 0px;
 }
 
-#portfolio > figure > img{
+#container-project figure img{
     width: 100%;
 }
 
@@ -249,14 +249,14 @@ menu > ul > li > a:hover{
     border: 1px solid rgba(0, 0, 0, 0.062);
 }
 
-#portfolio > div > #imc{
+#container-project > #imc{
     margin-top: 20px;
     margin-bottom: 50px;
     margin-left: 10.2%;
     width: 80%;
 }
 
-#portfolio > figure > a{
+#container-project figure a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -268,26 +268,7 @@ menu > ul > li > a:hover{
     border-radius: 0px 0px 10px 10px;
 }
 
-#portfolio > figure > a:hover{
-    transition: 0.5s;
-    background-color: #366db4;
-}
-
-#portfolio > div > #linkimc{
-    display: block;
-    position: absolute;
-    left: 14.7%;
-    text-align: center;
-    width: 69.6%;
-    padding: 15px;
-    margin-top: -55px;
-    text-decoration: none;
-    background-color: rgb(11, 57, 104);
-    color: #ffffff;
-    border-radius: 0px 0px 10px 10px;
-}
-
-#portfolio > div > #linkimc:hover{
+#container-project figure a:hover{
     transition: 0.5s;
     background-color: #366db4;
 }
