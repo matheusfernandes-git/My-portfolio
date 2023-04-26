@@ -1,5 +1,5 @@
 function changeSize(){
-    if(innerWidth >= 768){
+    if(innerWidth >= 1024){
         itens.style.display = 'block'
     }else{
         itens.style.display = 'none'
