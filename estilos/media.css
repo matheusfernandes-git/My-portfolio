@@ -172,8 +172,12 @@
     }
 
     #about{
-        padding: 20px;
+        padding: 15px;
         padding-bottom: 50px;
+    }
+
+    #content{
+        margin-top: 0px;
     }
 
     #about h2{
