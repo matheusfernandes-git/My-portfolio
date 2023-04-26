@@ -38,12 +38,12 @@
         height: 45vh;
     }
 
-    #home > h1{
-        padding-top: 150px;
+    #home div h1{
+        padding-top: 50px;
         font-size: 2.2em;
     }
 
-    #home > p{
+    #home div p{
         font-size: 1.2em;
     }
 
@@ -162,11 +162,11 @@
 
     #home{
         max-width: 100%;
-        padding-top: 10em;
+        padding: 50px;
         height: 55vh;
     }
 
-    #home > h1{
+    #home div h1{
         padding-top: 30px;
         font-size: 3.3em;
     }

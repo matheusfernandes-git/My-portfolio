@@ -116,7 +116,7 @@ menu > ul > li > a:hover{
 #tec > h2{
     text-align: center;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 
@@ -151,14 +151,19 @@ menu > ul > li > a:hover{
     width: 100%;
 }
 
-#about > h2{
+#content{
+    margin-top: 100px;
+    padding: 15px;
+}
+
+#about #content h2{
     color: #ffffff;
     padding: 7px;
     text-align: center;
     margin-top: 30px;
 }
 
-#about > p{
+#about #content p{
     color: #ffffff;
     font-size: 1.2em;
     padding: 10px;
@@ -180,15 +185,18 @@ menu > ul > li > a:hover{
     margin: 10px;
 }
 
-#about div{
+#about #container-curriculo{
     text-align: center;
 }
 
-#about div p{
+#about #container-curriculo p{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
     padding-bottom: 30px;
 }
 
-#about div a{
+#about #container-curriculo a{
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -199,7 +207,7 @@ menu > ul > li > a:hover{
     transition-duration: 0.7s;
 }
 
-#about div a:hover{
+#about #container-curriculo a:hover{
     background-color: #2b60a0;
     transition-duration: 0.3s;
 }
@@ -212,6 +220,7 @@ menu > ul > li > a:hover{
 }
 
 #portfolio{
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -226,7 +235,7 @@ menu > ul > li > a:hover{
     margin-top: 30px;
 }
 
-#landing-page, #porsche, #imc, #telalogin, #tabuada, #loremflix{
+#landing-page, #porsche, #imc, #telalogin, #tabuada, #lorem-flix{
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -283,7 +292,7 @@ menu > ul > li > a:hover{
 
 footer{
     background-color: #1F3B5E;
-    margin-top: 100px;
+    margin-top: 130px;
     height: 50vh;
 }
 
