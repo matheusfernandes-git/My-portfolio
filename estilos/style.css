@@ -237,7 +237,7 @@ menu > ul > li > a:hover{
     margin-top: 30px;
 }
 
-#landing-page, #porsche, #imc, #telalogin, #tabuada, #lorem-flix{
+#landing-page, #porsche, #calistenia, #imc, #telalogin, #tabuada, #lorem-flix{
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -245,7 +245,7 @@ menu > ul > li > a:hover{
     width: 100%;
 }
 
-#portfolio #landing-page, #ecommerce, #porsche{
+#portfolio #landing-page, #calistenia, #porsche{
     border: 1px solid rgba(0, 0, 0, 0.062);
 }
 
