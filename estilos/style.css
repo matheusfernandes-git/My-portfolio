@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
 
+:root{
+    --background: #1F3B5E;
+    --text-color-primary: #fff;
+    --text-color: #ffffffd0;
+}
+
 *{
     font-family: 'DM Sans', sans-serif;
     padding: 0px;
@@ -20,7 +26,7 @@ body{
 
 header{
     width: 100%;
-    background-color: #1F3B5E;
+    background-color: var(--background);
     overflow: hidden;
     position: fixed;
     z-index: 1000;
@@ -28,7 +34,7 @@ header{
 
 header a{
     display: flex;
-    color: #ffffffd0;
+    color: var(--text-color);
     margin-top: 10px;
     margin-bottom: -10px;
     margin-left: 10px;
@@ -45,7 +51,7 @@ header a{
     margin-right: 20px;
     border-radius: 5px;
     font-size: 1.5em;
-    color: #ffffff;
+    color: var(--text-color-primary);
     border: 1px solid lightgray;
     cursor: pointer;
     width: 1.5em;
@@ -67,7 +73,7 @@ menu{
 
 menu > ul > li > a{
     display: block;
-    color: #ffffffd0;
+    color: var(--text-color);
     font-size: 1.1em;
     text-align: center;
     padding: 8px;
@@ -100,11 +106,11 @@ menu > ul > li > a:hover{
 #home div h1{
     font-weight: bolder;
     font-size: 2.1em;
-    color: #ffffff;
+    color: var(--text-color-primary);
 }
 
 #home div p{
-    color: #ffffffd0;
+    color: var(--text-color);
     font-size: 1.2em;
     margin-top: 20px;
 }
@@ -133,7 +139,8 @@ menu > ul > li > a:hover{
     width: 90%;
     margin-bottom: 20px;
     border-radius: 10px;
-    background-color: #1F3B5E;
+    background-color: var(--background);
+    color: var(--text-color);
 }
 
 #div-content{
@@ -156,14 +163,14 @@ menu > ul > li > a:hover{
 }
 
 #about #content h2{
-    color: #ffffff;
+    color: var(--text-color-primary);
     padding: 7px;
     text-align: center;
     margin-top: 30px;
 }
 
 #about #content p{
-    color: #ffffff;
+    color: var(--text-color-primary);
     font-size: 1.2em;
     padding: 10px;
     width: 100%;
@@ -179,7 +186,7 @@ menu > ul > li > a:hover{
 }
 
 #about .pc{
-    color: #ffffff;
+    color: var(--text-color-primary);
     text-indent: 0px;
     margin: 10px;
 }
@@ -197,7 +204,7 @@ menu > ul > li > a:hover{
 
 #about #container-curriculo a{
     text-decoration: none;
-    color: white;
+    color: var(--text-color-primary);
     font-weight: bold;
     font-size: 1.1em;
     background-color: #4D92EB;
@@ -261,7 +268,7 @@ menu > ul > li > a:hover{
     margin-top: -4px;
     text-decoration: none;
     background-color: rgb(11, 57, 104);
-    color: #ffffff;
+    color: var(--text-color-primary);
     border-radius: 0px 0px 10px 10px;
 }
 
@@ -278,7 +285,7 @@ footer{
 
 footer > h2{
     padding: 15px;
-    color: #ffffff;
+    color: var(--text-color-primary);
     text-align: center;
 }
 
@@ -313,7 +320,7 @@ footer > h2{
 }
 
 #linkscont > #git{
-    color: #ffffff;
+    color: var(--text-color-primary);
 }
 
 #linkscont > #git:hover{
