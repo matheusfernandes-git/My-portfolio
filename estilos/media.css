@@ -7,28 +7,20 @@
             height: 60%;
         }
     
-        #tec{
-            max-width: 800px;
-        }
-    
-        #tec > div{
-            margin: 40px;
-        }
-    
-        #tec > #js{
-            width: 22%;
-        }
-
-        #tec #html{
-            width: 22%;
-        }
-
-        #tec #css{
-            width: 22%;
-        }
-    
         #sobre > a{
             max-width: 540px;
+        }
+
+        #container-tec{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        #container-tec div{
+            width: 500px;
+            justify-content: center;
+            margin: 0;
         }
         
         #container-project figure{
@@ -132,25 +124,20 @@
 
     #tec > h2{
         font-size: 2.8em;
-        margin-top: 30px;
-        padding-bottom: 20px;
+        margin-top: 100px;
     }
 
-    #tec > div{
-        margin-bottom: 50px;
+    #container-tec{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 6vw 3.625rem;
+        gap: 1.5rem;
     }
 
-    #tec > #js{
-        width: 40%;
-    }
-    
-    #tec > #html{
-        width: 40%;
-    }
-    
-    #tec > #css{
-        margin-top: -10px;
-        width: 40%;
+    #container-tec div{
+        width: 600px;
+        margin: 0;
     }
 
     #portfolio{

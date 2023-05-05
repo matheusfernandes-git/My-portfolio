@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,11 @@
     <link rel="shortcut icon" href="imagens/faviconn_io/android-chrome-192x192.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Portfólio | Matheus Fernandes</title>
 </head>
+
 <body onresize="changeSize()">
     <!--Header do portfólio-->
     <header>
@@ -18,96 +21,117 @@
             <img id="burguer" src="imagens/menu.png" alt="menu-burguer" onclick="clickMenu()">
         </div>
         <hr id="rowheader">
-            <menu id="itens">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#areatec">Tecnologias</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#portfolio">Projetos</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-                <hr id="rowh">
-            </menu>
+        <menu id="itens">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#areatec">Tecnologias</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#portfolio">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <hr id="rowh">
+        </menu>
     </header>
 
     <!--Home (página inicial)-->
-        <section id="home">
-            <div>
-                <h1>Bem-vindo ao portfólio do Matheus</h1>
-                <p>Aqui você vai conhecer minhas habilidades e projetos.</p>
-            </div>
-        </section>
-        
+    <section id="home">
+        <div>
+            <h1>Bem-vindo ao portfólio do Matheus</h1>
+            <p>Aqui você vai conhecer minhas habilidades e projetos.</p>
+        </div>
+    </section>
+
     <!--Tecnologias-->
-        <section id="tec">
-                <h2 id="areatec">Tecnologias</h2>
-            <div id="js">
-                <img src="imagens/js.png" alt="JavaScript">
-                <p>JavaScript</p>
+    <section id="tec">
+        <h2>Tecnologias</h2>
+            <div id="container-tec">
+                <div>
+                    <img id="js" src="imagens/icon-js.png" alt="JavaScript">
+                    <div id="div-content">
+                        <h4>JavaScript</h4>
+                        <p>Permite implementar funcionalidades em páginas web.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="imagens/icon-html.png" alt="HTML 5">
+                    <div id="div-content">
+                        <h4>HTML5</h4>
+                        <p> Define o significado e a estrutura do conteúdo da web.</p>
+                    </div>
+                </div>
+                <div>
+                    <img id="css" src="imagens/icon-css.png" alt="CSS 3">
+                    <div id="div-content">
+                        <h4>CSS3</h4>
+                        <p>É responsável pela estilização e responsividade da aplicação.</p>
+                    </div>
+                </div>
+                <div>
+                    <img id="css" src="imagens/icon-react.png" alt="React">
+                    <div id="div-content">
+                        <h4>React</h4>
+                        <p>É uma biblioteca para construção de interfaces de usuário.</p>
+                    </div>
+                </div>
             </div>
-            <div id="html">
-                <img src="imagens/html-5.png" alt="HTML 5">
-                <p>HTML 5</p>
-            </div>
-            <div id="css">
-                <img src="imagens/css-3.png" alt="CSS 3">
-                <p>CSS 3</p>
-            </div>
-        </section>
-    
+    </section>
+
     <!--Sobre mim-->
-        <main id="about">
-            <div id="content">
-                <h2>Sobre mim</h2>
-                <p class="psobre" >Me chamo Matheus Fernandes de Lima, tenho 20 anos, sou <strong id="strongads">estudante de análise e desenvolvimento de Sistemas</strong>. Sempre fui apaixonado em tecnologia, e hoje me vejo atuando na área, estou sempre buscando novos conhecimentos.
+    <main id="about">
+        <div id="content">
+            <h2>Sobre mim</h2>
+            <p class="psobre">Me chamo Matheus Fernandes de Lima, tenho 20 anos, sou <strong id="strongads">estudante de
+                    análise e desenvolvimento de Sistemas</strong>. Sempre fui apaixonado em tecnologia, e hoje me vejo
+                atuando na área, estou sempre buscando novos conhecimentos.
                 Focado na área <strong id="strongm">front-end: HTML, CSS JavaScript e React</strong>.</p>
-            </div>  
-            <div id="container-curriculo">
-                <p class="pc"><strong>Acesse meu currículo aqui:</strong></p>
-                <a href="documentos/Currículo.pdf" target="_blank">Meu currículo</a>
-            </div>
-            <picture>
-                <source media="(max-width: 768px )" srcset="imagens/eu3.jpg">
-                <img src="imagens/eurecortado2.jpg" alt="imagem">
-            </picture>
-        </main>
+        </div>
+        <div id="container-curriculo">
+            <p class="pc"><strong>Acesse meu currículo aqui:</strong></p>
+            <a href="documentos/Currículo.pdf" target="_blank">Meu currículo</a>
+        </div>
+        <picture>
+            <source media="(max-width: 768px )" srcset="imagens/eu3.jpg">
+            <img src="imagens/eurecortado2.jpg" alt="imagem">
+        </picture>
+    </main>
 
     <!--Projetos-->
-        <section id="portfolio">
-            <div>
-                <h2>Projetos</h2>
-            </div>  
-            <div id="container-project">
-                <figure>
-                    <img id="porsche" src="imagens/thumbporsche.png" alt="porsche">
-                    <a href="https://porsche-model.vercel.app/" target="_blank">Clique para ver</a>
-                </figure>
-                <figure>
-                    <img id="lorem-flix" src="imagens/thumbLoremFlix.png" alt="lorem-flix">
-                    <a href="https://lorem-flix.vercel.app/" target="_blank">Clique para ver</a>
-                </figure>
-                <figure>
-                    <img id="imc" src="imagens/thumbIMCtable.png" alt="imc">
-                    <a id="linkimc" href="https://matheusfernandes-git.github.io/imc-table/" target="_blank">Clique para ver</a>
-                </figure>
-                <figure>
-                    <img id="calistenia" src="imagens/thumbcalisthenic.png" alt="calistenia">
-                    <a href="https://calisthenics-website.vercel.app" target="_blank">Clique para ver</a>
-                </figure>
-                <figure>
-                    <img id="landing-page" src="imagens/thumblanding-page.png" alt="landing-page">
-                    <a href="https://matheusfernandes-git.github.io/Landing-page/" target="_blank">Clique para ver</a>
-                </figure>
-                <figure>
-                    <img id="telalogin" src="imagens/thumblogin.png" alt="telalogin">
-                    <a href="https://matheusfernandes-git.github.io/Login-project/" target="_blank">Clique para ver</a>
-                </figure>
-                <figure>
-                    <img id="tabuada" src="imagens/thumbtabuada.png" alt="tabuada">
-                    <a href="https://matheusfernandes-git.github.io/table-generator/" target="_blank">Clique para ver</a>
-                </figure>
-            </div>
-        </section>
+    <section id="portfolio">
+        <div>
+            <h2>Projetos</h2>
+        </div>
+        <div id="container-project">
+            <figure>
+                <img id="porsche" src="imagens/thumbporsche.png" alt="porsche">
+                <a href="https://porsche-model.vercel.app/" target="_blank">Clique para ver</a>
+            </figure>
+            <figure>
+                <img id="lorem-flix" src="imagens/thumbLoremFlix.png" alt="lorem-flix">
+                <a href="https://lorem-flix.vercel.app/" target="_blank">Clique para ver</a>
+            </figure>
+            <figure>
+                <img id="imc" src="imagens/thumbIMCtable.png" alt="imc">
+                <a id="linkimc" href="https://matheusfernandes-git.github.io/imc-table/" target="_blank">Clique para
+                    ver</a>
+            </figure>
+            <figure>
+                <img id="calistenia" src="imagens/thumbcalisthenic.png" alt="calistenia">
+                <a href="https://calisthenics-website.vercel.app" target="_blank">Clique para ver</a>
+            </figure>
+            <figure>
+                <img id="landing-page" src="imagens/thumblanding-page.png" alt="landing-page">
+                <a href="https://matheusfernandes-git.github.io/Landing-page/" target="_blank">Clique para ver</a>
+            </figure>
+            <figure>
+                <img id="telalogin" src="imagens/thumblogin.png" alt="telalogin">
+                <a href="https://matheusfernandes-git.github.io/Login-project/" target="_blank">Clique para ver</a>
+            </figure>
+            <figure>
+                <img id="tabuada" src="imagens/thumbtabuada.png" alt="tabuada">
+                <a href="https://matheusfernandes-git.github.io/table-generator/" target="_blank">Clique para ver</a>
+            </figure>
+        </div>
+    </section>
 
     <!--Contato(Rodapé so portfólio)-->
     <footer id="contact">
@@ -115,17 +139,19 @@
 
         <div id="areacont">
             <p id="email"> <img src="./imagens/icons8-email-30.png">:</img> matheusfernandes311@hotmail.com</p>
-        <div id="linkscont">
-            <a id="git" href="https://github.com/matheusfernandes-git" target="_blank"><img src="./imagens/icons8-github-48.png" alt="GitHub"></a>
-            <a id="linkedin" href="https://www.linkedin.com/in/matheus-fernandes-732a8322a/" target="_blank"><img src="./imagens/icons8-linkedin-48.png" alt="Linkedin"></a>
-        </div>
+            <div id="linkscont">
+                <a id="git" href="https://github.com/matheusfernandes-git" target="_blank"><img
+                        src="./imagens/icons8-github-48.png" alt="GitHub"></a>
+                <a id="linkedin" href="https://www.linkedin.com/in/matheus-fernandes-732a8322a/" target="_blank"><img
+                        src="./imagens/icons8-linkedin-48.png" alt="Linkedin"></a>
+            </div>
 
-        <p> Matheus Fernandes &copy;</p>
+            <p> Matheus Fernandes &copy;</p>
         </div>
     </footer>
 
     <!--JavaScript-->
     <script src="script.js"></script>
 </body>
-        
+
 </html>

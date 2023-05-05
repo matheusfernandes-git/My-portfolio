@@ -110,42 +110,39 @@ menu > ul > li > a:hover{
 }
 
 #tec{
-    max-width: 550px;
-    text-align: center;
-    margin: auto;
+    width: 100%;
 }
 
-#tec > h2{
+#tec h2{
     text-align: center;
-    padding: 10px;
     margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+#container-tec {
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+#container-tec div{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: auto;
+    width: 90%;
     margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #1F3B5E;
 }
 
-#tec > div{
-    display: inline-flex;
+#div-content{
     flex-wrap: wrap;
-    flex-direction: column;
-    transition: .5s;
-    width: 40%;
 }
 
-#tec > div > p{
-    text-align: center;
-    padding: 8px;
-    width: 100%;
-}
-
-#tec > div > img{
-    width: 100%;
-}
-
-#tec > #js{
-    margin-top: 30px;
-}
-
-#tec > #css{
-    margin-top: 50px;
+#div-content h4{
+    font-size: 20px;
+    padding-bottom: 7px;
 }
 
 #about{
