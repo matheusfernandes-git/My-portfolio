@@ -114,7 +114,7 @@
         padding-bottom: 50px;
     }
 
-    #content{
+    #content-about{
         margin-top: 0px;
     }
 
@@ -138,9 +138,7 @@
 
     #about > picture > img{
         display: none;
-    }
-    
-    
+    }  
     
     #portfolio{
         text-align: center;

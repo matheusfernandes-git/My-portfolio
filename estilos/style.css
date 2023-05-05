@@ -143,11 +143,16 @@ menu > ul > li > a:hover{
     color: var(--text-color);
 }
 
-#div-content{
+#content:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.11);
+}
+
+#div-text{
+    box-shadow: none;
     flex-wrap: wrap;
 }
 
-#div-content h4{
+#div-text h4{
     font-size: 20px;
     padding-bottom: 7px;
 }
@@ -157,19 +162,19 @@ menu > ul > li > a:hover{
     width: 100%;
 }
 
-#content{
+#content-about{
     margin-top: 100px;
     padding: 15px;
 }
 
-#about #content h2{
+#about #content-about h2{
     color: var(--text-color-primary);
     padding: 7px;
     text-align: center;
     margin-top: 30px;
 }
 
-#about #content p{
+#about #content-about p{
     color: var(--text-color-primary);
     font-size: 1.2em;
     padding: 10px;
