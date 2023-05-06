@@ -1,4 +1,12 @@
     @media (min-width: 768px) and (max-width:1024px){
+
+        header a {
+            margin-left: 3%;
+        }
+
+        #burguer{
+            margin-right: 3%;
+        }
         
         #container-home h1{
             font-size: 3.2em;
@@ -82,7 +90,7 @@
         display: flex;
         justify-content: center;
         padding-top: 150px;
-        padding-bottom: 270px;
+        padding-bottom: 250px;
         text-align: left;
     }
     
