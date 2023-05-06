@@ -159,6 +159,10 @@
         font-size: 1.2em;
     }
 
+    #about #container-curriculo{
+        padding-bottom: 0px;
+    }
+
     #about div a{
         display: flex;
         justify-content: center;
@@ -172,6 +176,7 @@
     }  
     
     #portfolio{
+        margin-top: 100px;
         text-align: center;
     }
 
