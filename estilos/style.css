@@ -96,35 +96,15 @@ menu > ul > li > a:hover{
     padding-bottom: 100px;
 }
 
-#teste{
-    position: absolute;
-    bottom: -350px;
-    left: -100px;
-    border-radius: 60% 100% 140% 60%;
-    height: 500px;
-    width: 270px;
-    background-color:#DAE9FF;
-}
-
 #teste2{
     position: absolute;
     top: 0;
-    right: -100px;
-    border-radius: 30% 30% 40% 20%;
+    right: 0;
     height: 500px;
-    width: 500px;
-    background-color:#DAE9FF;
+    width: 100%;
+    background-color:#2f74db41;
 }
 
-#teste3{
-    position: absolute;
-    top: 0;
-    right: -100px;
-    border-radius: 40% 50% 0% 60%;
-    height: 400px;
-    width: 200px;
-    background-color:#DAE9FF;
-}
 
 #container-home{
     display: flex;

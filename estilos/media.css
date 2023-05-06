@@ -7,7 +7,7 @@
         #burguer{
             margin-right: 3%;
         }
-        
+         
         #container-home h1{
             font-size: 3.2em;
         }
@@ -84,6 +84,34 @@
     menu a{
         font-size: 1.2em;
         padding: 10px;
+    }
+
+    #teste{
+        position: absolute;
+        bottom: -350px;
+        left: -100px;
+        border-radius: 60% 100% 140% 60%;
+        height: 500px;
+        width: 270px;
+        background-color:#2f74db80;
+    }
+    
+    #teste2{
+        right: -100px;
+        border-radius: 30% 30% 40% 20%;
+        height: 500px;
+        width: 500px;
+        background-color:#2f74db80;
+    }
+    
+    #teste3{
+        position: absolute;
+        top: 400px;
+        right: -100px;
+        border-radius: 40% 50% 0% 60%;
+        height: 400px;
+        width: 200px;
+        background-color:#2f74db80;
     }
 
     #home{
