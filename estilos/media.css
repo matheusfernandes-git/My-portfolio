@@ -1,6 +1,7 @@
     @media (min-width: 768px) and (max-width:1024px){
-        #home{
-            height: 40vh;
+        
+        #container-home h1{
+            font-size: 3.2em;
         }
 
         #about > picture > img{    
@@ -46,7 +47,7 @@
     }
 
     header a{
-        margin-left: 30px;
+        margin-left: 10%;
         margin-top: 17px;
         padding: 0px;
     }
@@ -65,6 +66,7 @@
 
     menu{
         display: block;
+        margin-right: 6%;
     }
 
     menu > ul{
@@ -81,20 +83,49 @@
     }
 
     #home{
-        max-width: 100%;
-        padding: 50px;
-        height: 55vh;
+        display: flex;
+        justify-content: center;
+        padding-top: 150px;
+        padding-bottom: 270px;
+        text-align: left;
     }
     
-    #home div h1{
-        padding-top: 30px;
-        font-size: 3.3em;
+    #container-home{
+        width: 100%;
+        flex-direction: row;
+    }
+
+    #content-home{
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    #content-home h1{
+        font-size: 4.5em;
+    }
+
+    #linksHome a{
+        margin-right: -20px;
+    }
+
+    #container-img{
+        width: 600px;
+        order: 2;
+        margin-top: 40px;
+        margin-right: 10%;
+    }
+    
+    #container-img img{
+        height: 370px;
+        border-radius: 6px;
     }
 
     #tec > h2{
         font-size: 2.8em;
         margin-top: 100px;
+        padding-bottom: 100px;
     }
+
     #container-tec{
         display: flex;
         justify-content: center;

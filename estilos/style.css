@@ -89,34 +89,78 @@ menu > ul > li > a:hover{
 }
 
 #home{
-    background-color: rgba(0, 0, 0, 0.781);
-    background-image: url('../imagens/banner2.jpg');
-    background-position: left;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 50vh;
-}
-
-#home div{
     text-align: center;
-    padding-top: 130px;
+    padding-bottom: 100px;
 }
 
-#home div h1{
+#container-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+#content-home{
+    margin-top: 100px;
+}
+
+#content-home h1{
     font-weight: bolder;
-    font-size: 2.1em;
+    font-size: 2.3em;
+    padding-bottom: 10px;
+}
+
+#content-home p{
+    font-size: 1.1em;
+}
+
+#p{
+    margin-top: 8px;
+}
+
+#linksHome a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: -10px;
+}
+
+#linksHome img{
+    width: 75%;
+}
+
+#linksHome > #git{
     color: var(--text-color-primary);
 }
 
-#home div p{
-    color: var(--text-color);
-    font-size: 1.2em;
-    margin-top: 20px;
+#linksHome > #git:hover{
+    transition: 0.5s;
+}
+
+#linksHome > #linkedin{
+    color: #ffffff;
+}
+
+#linksHome > #linkedin:hover{
+    transition: 0.5s;
+}
+
+#container-img{
+    order: 2;
+    margin-top: 40px;
+    width: 300px;
+}
+
+#container-img img{
+    height: 300px;
+    border-radius: 6px;
 }
 
 #tec{
     width: 100%;
+    padding-bottom: 100px;
 }
 
 #tec h2{
@@ -231,7 +275,7 @@ menu > ul > li > a:hover{
 }
 
 #portfolio{
-    margin-top: 100px;
+    padding-top: 100px;
     text-align: center;
 }
 
