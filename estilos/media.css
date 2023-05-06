@@ -3,10 +3,6 @@
         #container-home h1{
             font-size: 3.2em;
         }
-
-        #about picture > img{    
-            height: 60%;
-        }
     
         #sobre a{
             max-width: 540px;
@@ -170,10 +166,6 @@
         width: 25%;
         margin-left: 38%;
     }
-
-    #about > picture > img{
-        display: none;
-    }  
     
     #portfolio{
         margin-top: 100px;
