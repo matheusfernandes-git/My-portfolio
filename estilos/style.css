@@ -173,6 +173,25 @@ menu > ul > li > a:hover{
     border-radius: 6px;
 }
 
+#btn-top{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    visibility: hidden;
+}
+
+#btn-top.visible{
+    visibility: visible;
+}
+
+#btn-top span{
+    border-radius: 6px;
+    padding: 5px;
+    color: #fff;
+    background-color: var(--background);
+    cursor: pointer;
+}
+
 #tec{
     position: relative;
     width: 100%;
