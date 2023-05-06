@@ -329,7 +329,7 @@ footer{
 
 footer > h2{
     padding: 15px;
-    color: var(--text-color-primary);
+    color: var(--text-primary-color);
     text-align: center;
 }
 
