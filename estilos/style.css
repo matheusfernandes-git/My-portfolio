@@ -2,8 +2,9 @@
 
 :root{
     --background: #1F3B5E;
-    --text-color-primary: #fff;
+    --text-primary-color: #fff;
     --text-color: #ffffffd0;
+    --text-secondary-color: #4D92EB;
 }
 
 *{
@@ -51,14 +52,14 @@ header a{
     margin-right: 20px;
     border-radius: 5px;
     font-size: 1.5em;
-    color: var(--text-color-primary);
+    color: var(--text-primary-color);
     border: 1px solid lightgray;
     cursor: pointer;
     width: 1.5em;
 }
 
 #burguer:hover{
-    background-color: #4D92EB;
+    background-color: var(--text-secondary-color);
     transition: 0.5s;
 }
 
@@ -85,7 +86,7 @@ menu > ul > li > a{
 }
 
 menu > ul > li > a:hover{
-    color: #4D92EB;
+    color: var(--text-secondary-color);
 }
 
 #home{
@@ -132,7 +133,7 @@ menu > ul > li > a:hover{
 }
 
 #linksHome > #git{
-    color: var(--text-color-primary);
+    color: var(--text-primary-color);
 }
 
 #linksHome > #git:hover{
@@ -140,7 +141,7 @@ menu > ul > li > a:hover{
 }
 
 #linksHome > #linkedin{
-    color: #ffffff;
+    color: var(--text-primary-color);
 }
 
 #linksHome > #linkedin:hover{
@@ -212,14 +213,14 @@ menu > ul > li > a:hover{
 }
 
 #about #content-about h2{
-    color: var(--text-color-primary);
+    color: var(--text-primary-color);
     padding: 7px;
     text-align: center;
     margin-top: 30px;
 }
 
 #about #content-about p{
-    color: var(--text-color-primary);
+    color: var(--text-primary-color);
     font-size: 1.2em;
     padding: 10px;
     width: 100%;
@@ -231,11 +232,11 @@ menu > ul > li > a:hover{
 }
 
 #strongads, #strongm{
-    color: #4D92EB;
+    color: var(--text-secondary-color);
 }
 
 #about .pc{
-    color: var(--text-color-primary);
+    color: var(--text-primary-color);
     text-indent: 0px;
     margin: 10px;
 }
@@ -254,10 +255,10 @@ menu > ul > li > a:hover{
 
 #about #container-curriculo a{
     text-decoration: none;
-    color: var(--text-color-primary);
+    color: var(--text-primary-color);
     font-weight: bold;
     font-size: 1.1em;
-    background-color: #4D92EB;
+    background-color: var(--text-secondary-color);
     padding: 10px;
     border-radius: 8px;
     transition-duration: 0.7s;
@@ -311,7 +312,7 @@ menu > ul > li > a:hover{
     margin-top: -4px;
     text-decoration: none;
     background-color: rgb(11, 57, 104);
-    color: var(--text-color-primary);
+    color: var(--text-primary-color);
     border-radius: 0px 0px 10px 10px;
 }
 
@@ -371,7 +372,7 @@ footer > h2{
 }
 
 #linkscont > #linkedin{
-    color: #ffffff;
+    color: var(--text-primary-color);
 }
 
 #linkscont > #linkedin:hover{
