@@ -25,15 +25,12 @@ body{
     overflow-x: hidden;
 }
 
-
 nav {
     display: flex;
-    background-color:#2f74db41;
     color: var(--text-primary-color);
     align-items: center;
     justify-content: space-between;
 }
-
 
 nav .mainMenu {
     height: 100vh;
@@ -63,6 +60,7 @@ nav .mainMenu .closeMenu {
 
 nav .openMenu {
     display: block;
+    position: relative;
     font-size: 2rem;
     margin: 20px;
     margin-right: 4%;
@@ -74,7 +72,7 @@ nav .mainMenu li a {
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    color: rgb(255, 255, 255);
+    color: var(--text-primary-color);
     font-size: 18px;
     transition: 0.2s ease;
 }
@@ -93,9 +91,8 @@ nav .mainMenu li a:hover {
 
 #home{
     position: relative;
-    height: calc(100% - 200px);
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
 #teste2{
@@ -125,11 +122,11 @@ nav .mainMenu li a:hover {
     padding-bottom: 10px;
 }
 
-#content-home p{
+#content-home #strongm{
     font-size: 1.1em;
 }
 
-#p{
+#content-home #p{
     margin-top: 8px;
 }
 
