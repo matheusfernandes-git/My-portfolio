@@ -69,12 +69,29 @@ nav .openMenu {
 
 nav .mainMenu li a {
     display: inline-block;
+    position: relative;
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
     color: var(--text-primary-color);
     font-size: 18px;
     transition: 0.2s ease;
+}
+
+nav .mainMenu li a::after{
+    content: '';
+    width: 0%;
+    height: 1px;
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+nav .mainMenu li a:hover::after{
+    width: 100%;
 }
 
 nav .mainMenu li a:hover {
