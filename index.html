@@ -10,31 +10,29 @@
     <link rel="stylesheet" href="estilos/media.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
     <title>Portfólio | Matheus Fernandes</title>
 </head>
 
 <body onresize="changeSize()">
     <!--Header do portfólio-->
     <header>
-        <a href="#home">Matheus Fernandes</a>
-        <div>
-            <img id="burguer" src="imagens/menu.png" alt="menu-burguer" onclick="clickMenu()">
-        </div>
-        <hr id="rowheader">
-        <menu id="itens">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#areatec">Tecnologias</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#portfolio">Projetos</a></li>
-                <li><a href="#contact">Contato</a></li>
+        <nav id="menu">
+            <div id="logo">
+                <a href="#menu"><img src="imagens/logo.png" alt="logo"></a>
+            </div>
+            <div class="openMenu"><i class="fa fa-bars" style="color: #000000b6;"></i></div>
+            <ul class="mainMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#areatec">Tecnologias</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#portfolio">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
             </ul>
-            <hr id="rowh">
-        </menu>
+        </nav>
     </header>
 
-    
-    
     <!--Home (página inicial)-->
     <section id="home">
         <div id="teste"></div>
@@ -61,7 +59,7 @@
     </div>
 </section>
 
-    <a id="btn-top" href="#home">
+    <a id="btn-top" href="#burguer">
         <span class="material-symbols-outlined">
             arrow_upward
         </span>

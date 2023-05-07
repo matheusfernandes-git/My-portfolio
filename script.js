@@ -1,9 +1,25 @@
-function changeSize(){
-    if(innerWidth >= 1024){
-        itens.style.display = 'block'
-    }else{
-        itens.style.display = 'none'
-    }
+
+const mainMenu = document.querySelector('.mainMenu');
+const closeMenu = document.querySelector('.closeMenu');
+const openMenu = document.querySelector('.openMenu');
+const menu_items = document.querySelectorAll('nav .mainMenu li a');
+
+openMenu.addEventListener('click',show);
+closeMenu.addEventListener('click',close);
+
+// close menu when you click on a menu item 
+menu_items.forEach(item => {
+    item.addEventListener('click',function(){
+        close();
+    })
+})
+
+function show(){
+    mainMenu.style.display = 'flex';
+    mainMenu.style.top = '0';
+}
+function close(){
+    mainMenu.style.top = '-100%';
 }
 
 const btnTop = document.getElementById('btn-top');
@@ -15,12 +31,3 @@ window.addEventListener('scroll', () => {
     }
 })
 
-function clickMenu(){
-    if (itens.style.display == 'block'){
-        itens.style.display = 'none'
-        document.getElementById('burguer').src = 'imagens/menu.png';
-    }else{
-        itens.style.display = 'block'
-        document.getElementById('burguer').src = 'imagens/close.png';
-    }
-}
