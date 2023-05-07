@@ -5,6 +5,7 @@
     --text-primary-color: #fff;
     --text-color: #ffffffd0;
     --text-secondary-color: #4D92EB;
+    --black: #000;
 }
 
 *{
@@ -82,8 +83,8 @@ nav .mainMenu li a::after{
     content: '';
     width: 0%;
     height: 1px;
-    background-color: #fff;
-    color: #000;
+    background-color: var(--text-primary-color);
+    color: var(--black);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -251,7 +252,7 @@ nav .mainMenu li a:hover {
 }
 
 #about{
-    background-color: black;
+    background-color: var(--black);
     width: 100%;
 }
 
@@ -370,7 +371,7 @@ nav .mainMenu li a:hover {
 }
 
 footer{
-    background-color: #1F3B5E;
+    background-color: var(--background);
     margin-top: 130px;
     height: 50vh;
 }
