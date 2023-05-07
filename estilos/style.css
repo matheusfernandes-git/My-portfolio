@@ -119,7 +119,7 @@ nav .mainMenu li a:hover {
     right: 0;
     height: 500px;
     width: 100%;
-    background-color:#2f74db41;
+    /* background-color: #1F3B5E; */
 }
 
 #container-home{
@@ -160,19 +160,7 @@ nav .mainMenu li a:hover {
     width: 75%;
 }
 
-#linksHome > #git{
-    color: var(--text-primary-color);
-}
-
 #linksHome > #git:hover{
-    transition: 0.5s;
-}
-
-#linksHome > #linkedin{
-    color: var(--text-primary-color);
-}
-
-#linksHome > #linkedin:hover{
     transition: 0.5s;
 }
 
