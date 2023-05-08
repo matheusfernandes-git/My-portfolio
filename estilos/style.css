@@ -385,6 +385,7 @@ footer > h2{
 
 #linkscont{
     text-align: center;
+    margin-bottom: 30px;
 }
 
 #linkscont a{
@@ -416,9 +417,14 @@ footer > h2{
     transition: 0.5s;
 }
 
+footer hr{
+    margin: auto;
+    width: 60%;
+}
+
 footer p{
     color: #ffffffda;
     font-size: 1em;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
 }
