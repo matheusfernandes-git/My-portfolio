@@ -120,14 +120,6 @@ nav .mainMenu li a:hover {
     padding-bottom: 150px;
 }
 
-#extra2{
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 500px;
-    width: 100%;
-}
-
 #container-home{
     display: flex;
     align-items: center;
