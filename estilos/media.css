@@ -36,6 +36,8 @@
     }
 
     @media (min-width: 1024px){
+      
+    /* Header */
 
     #logo{
         margin-left: 10%;
@@ -87,6 +89,8 @@
         width: 100px;
         background-color:#2f74db80;
     }
+ 
+    /* Home */
 
     #home{
         display: flex;
@@ -133,6 +137,8 @@
         height: 370px;
         border-radius: 6px;
     }
+ 
+    /* Top button */
 
     #btn-top{
         bottom: 90px;
@@ -143,6 +149,8 @@
         font-size: 30px;
         padding: 10px;
     }
+  
+    /* Tecnologias */
 
     #tec h2{
         font-size: 3.5em;
@@ -162,6 +170,8 @@
         width: 600px;
         margin: 0;
     }
+
+    /* About me */
 
     #about{
         margin-top: 100px;
@@ -198,6 +208,9 @@
         width: 25%;
         margin-left: 38%;
     }
+
+    
+    /* Projects */
     
     #portfolio{
         margin-top: 100px;
@@ -218,6 +231,8 @@
         display: inline-block;
         margin-right: 50px;    
     }
+
+    /* Footer */
 
     footer{
         margin-top: 100px;
