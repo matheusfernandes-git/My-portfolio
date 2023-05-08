@@ -372,7 +372,7 @@ footer{
     padding-bottom: 20px;
 }
 
-footer > h2{
+footer h2{
     padding: 15px;
     color: var(--text-primary-color);
     text-align: center;
@@ -409,28 +409,25 @@ footer > h2{
     width: 80%;
 }
 
-#linkscont > #git{
+#linkscont #git{
     color: var(--text-color-primary);
 }
 
-#linkscont > #git:hover{
+#linkscont #git:hover{
     transition: 0.5s;
 }
 
-#linkscont > #linkedin{
+#linkscont #linkedin{
     color: var(--text-primary-color);
 }
 
-#linkscont > #linkedin:hover{
-    transition: 0.5s;
-}
-
 footer hr{
+    text-align: center;
     margin: auto;
-    width: 60%;
+    width: 70%;
 }
 
-footer p{
+footer #copy{
     color: #ffffffda;
     font-size: 1em;
     text-align: center;
