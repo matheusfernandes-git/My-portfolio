@@ -361,7 +361,7 @@ nav .mainMenu li a:hover {
 footer{
     background-color: var(--background);
     margin-top: 130px;
-    height: 50vh;
+    padding-bottom: 20px;
 }
 
 footer > h2{
