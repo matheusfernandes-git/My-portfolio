@@ -29,10 +29,6 @@
             text-align: center;
             margin-left: 20.3%;
         }
-
-        footer{
-            height: 32vh;
-        }
     }
 
     @media (min-width: 1024px){
