@@ -214,7 +214,7 @@ nav .mainMenu li a:hover {
     width: 100%;
 }
 
-#container-tec div{
+#container-tec #content{
     display: flex;
     align-items: center;
     padding: 1rem;
@@ -232,7 +232,6 @@ nav .mainMenu li a:hover {
 
 #div-text{
     box-shadow: none;
-    flex-wrap: wrap;
 }
 
 #div-text h4{
