@@ -72,19 +72,19 @@
     
     #teste2{
         top: -150px;
-        right: -100px;
+        right: 0px;
         height: 600px;
-        width: 520px;
+        width: 420px;
         background-color:#2f74db80;
     }
-    
+
     #teste3{
         position: absolute;
-        top: -100px;
-        right: -100px;
-        border-radius: 40% 50% 0% 60%;
+        top: -400px;
+        right: 0px;
+        border-radius: 100% 0% 0% 100%;
         height: 400px;
-        width: 200px;
+        width: 100px;
         background-color:#2f74db80;
     }
 

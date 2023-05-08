@@ -178,6 +178,7 @@ nav .mainMenu li a:hover {
 
 #btn-top{
     position: fixed;
+    z-index: 100;
     bottom: 30px;
     right: 30px;
     visibility: hidden;
