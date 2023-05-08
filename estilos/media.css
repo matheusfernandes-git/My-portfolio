@@ -60,7 +60,7 @@
         margin-right: 9%;
     }
 
-    #teste{
+    #extra{
         position: absolute;
         bottom: -350px;
         left: -100px;
@@ -70,7 +70,7 @@
         background-color:#2f74db80;
     }
     
-    #teste2{
+    #extra2{
         top: -150px;
         right: 0px;
         height: 600px;
@@ -78,7 +78,7 @@
         background-color:#2f74db80;
     }
 
-    #teste3{
+    #extra3{
         position: absolute;
         top: -400px;
         right: 0px;
