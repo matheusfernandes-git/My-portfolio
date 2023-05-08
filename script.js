@@ -23,6 +23,8 @@ function close(){
     mainMenu.style.top = '-100%';
 }
 
+//Top button
+
 const btnTop = document.getElementById('btn-top');
 window.addEventListener('scroll', () => {
     if(window.scrollY == 0){
