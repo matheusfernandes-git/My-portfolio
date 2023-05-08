@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
 
+
+/* Global */
 :root{
     --background: #1F3B5E;
     --text-primary-color: #fff;
@@ -25,6 +27,8 @@ body{
     height: 100vh;
     overflow-x: hidden;
 }
+
+/* Header */
 
 nav {
     display: flex;
@@ -108,6 +112,8 @@ nav .mainMenu li a:hover {
     width: 90%;
 }
 
+/* Home */
+
 #home{
     position: relative;
     text-align: center;
@@ -176,6 +182,9 @@ nav .mainMenu li a:hover {
     border-radius: 6px;
 }
 
+
+/* Top button */
+
 #btn-top{
     position: fixed;
     z-index: 100;
@@ -195,6 +204,8 @@ nav .mainMenu li a:hover {
     background-color: var(--background);
     cursor: pointer;
 }
+
+/* Tecnologias */
 
 #tec{
     position: relative;
@@ -238,6 +249,8 @@ nav .mainMenu li a:hover {
     font-size: 20px;
     padding-bottom: 7px;
 }
+
+/* About me */
 
 #about{
     background-color: var(--black);
@@ -306,6 +319,8 @@ nav .mainMenu li a:hover {
     transition-duration: 0.3s;
 }
 
+/* Projects */
+
 #portfolio{
     padding-top: 100px;
     text-align: center;
@@ -357,6 +372,8 @@ nav .mainMenu li a:hover {
     transition: 0.5s;
     background-color: #366db4;
 }
+
+/* Footer */
 
 footer{
     background-color: var(--background);
