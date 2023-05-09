@@ -340,13 +340,6 @@ nav .mainMenu li a:hover {
     border: 1px solid rgba(0, 0, 0, 0.062);
 }
 
-#container-project > #imc{
-    margin-top: 20px;
-    margin-bottom: 50px;
-    margin-left: 10.2%;
-    width: 80%;
-}
-
 #container-project figure a{
     display: flex;
     align-items: center;
