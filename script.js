@@ -20,7 +20,7 @@ function show(){
 }
 
 function close(){
-    mainMenu.style.top = '-200%';
+    mainMenu.style.top = '-150%';
 }
 
 //Top button
