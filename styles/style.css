@@ -328,16 +328,10 @@ nav .mainMenu li a:hover {
     margin-top: 30px;
 }
 
-#landing-page, #porsche, #calistenia, #imc, #telalogin, #tabuada, #lorem-flix{
-    border-radius: 10px 10px 0px 0px;
-}
-
 #container-project figure img{
     width: 100%;
-}
-
-#portfolio #landing-page, #calistenia, #porsche, #imc{
     border: 1px solid rgba(0, 0, 0, 0.062);
+    border-radius: 10px 10px 0px 0px;
 }
 
 #container-project figure a{
