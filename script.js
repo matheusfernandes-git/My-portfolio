@@ -24,7 +24,7 @@ function close(){
 
 // Translate button
 
-window.gtranslateSettings = {"default_language":"pt","languages":["pt","en"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"center","switcher_vertical_position":"top"}
+// window.gtranslateSettings = {"default_language":"pt","languages":["pt","en"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"center","switcher_vertical_position":"top","float_switcher_open_direction":"bottom","alt_flags":{"pt":"brazil"}}
 
 //Top button
 
