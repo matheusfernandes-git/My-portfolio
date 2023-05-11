@@ -1,4 +1,3 @@
-
 const mainMenu = document.querySelector('.mainMenu');
 const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
@@ -22,6 +21,10 @@ function show(){
 function close(){
     mainMenu.style.top = '-150%';
 }
+
+// Translate button
+
+window.gtranslateSettings = {"default_language":"pt","languages":["pt","en"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"center","switcher_vertical_position":"top"}
 
 //Top button
 

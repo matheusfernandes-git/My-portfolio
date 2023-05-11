@@ -111,6 +111,10 @@ nav .mainMenu li a:hover {
     width: 90%;
 }
 
+#translate-button{
+    width: 20%;
+}
+
 /* Home */
 
 #home{
