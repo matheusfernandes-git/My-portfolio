@@ -229,9 +229,11 @@ nav .mainMenu li a:hover {
     border-radius: 10px;
     background-color: var(--background);
     color: var(--text-color);
+    transition: 0.5s ease;
 }
 
-#content:hover{
+#container-tec #content:hover{
+    transform: scale(1) translateY(4px);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.11);
 }
 
