@@ -21,7 +21,16 @@
         }
         
         #container-project figure{
-            width: 60%;
+            width: 45%;
+        }
+
+        #email{
+            flex-direction: row;
+        }
+
+        #email img{
+            margin-right: 10px;
+            padding-bottom: 0px;
         }
 
     }
@@ -216,13 +225,12 @@
     }
 
     #container-project{
-        margin-left: 3%;
+        width: 80%;
+        margin: auto;
     }
 
     #container-project figure{
         width: 30%;
-        display: inline-block;
-        margin-right: 50px;    
     }
 
     /* Footer */
@@ -238,8 +246,14 @@
         gap: 3em;
     }
 
-    #areacont #email{
+    #email{
+        flex-direction: row;
        margin-top: 10px;
+    }
+
+    #email img{
+        margin-right: 10px;
+        padding-bottom: 0px;
     }
 
     #linkscont{
