@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "img": "images/thumbs/thumbTechZone.png",
+        "alt": "imagem do projeto TechZone",
+        "title": "TechZone",
+        "describre": "Nesse ecommerce você pode favoritar produtos, adicionar ao carrinho, anunciar seu próprio produto  na página de anúncios, adicionar seu endereço de entrega e escolher uma forma de pagamento.  Desenvolvido com",
+        "strong": "ReactJs, Redux ToolKit, Axios...",
+        "project-link": "https://tech-zone-vert.vercel.app/",
+        "gitHub-link": "https://github.com/matheusfernandes-git/TechZone"
+    },
+    {
+        "id": 2,
+        "img": "",
+        "alt": "imagem do projeto Meteoro Ecommerce",
+        "title": "Meteoro Ecommerce",
+        "describre": "Nesse ecommerce você pode adicionar um produto ao carrinho, escolher a quantidade, deletar um produto. Desenvolvido com",
+        "strong": "ReactJs, SCSS, HTML...",
+        "project-link": "https://meteoro-ecommerce.vercel.app/",
+        "gitHub-link": "https://github.com/matheusfernandes-git/meteoro-ecommerce"
+    },
+    {
+        "id": 3,
+        "img": "images/thumbs/thumbIMCtable.png",
+        "alt": "imagem do projeto IMC table",
+        "title": "IMC table",
+        "describre": "Neste projeto você pode adicionar um paciente à tabela imc, remover um paciente, filtrar os já adicionados e verificar sua classificação. Desenvolvido com ",
+        "strong": "JavaScript(vanilla), HTML, CSS...",
+        "project-link": "https://matheusfernandes-git.github.io/imc-table/",
+        "gitHub-link": "https://github.com/matheusfernandes-git/imc-table"
+    },
+    {
+        "id": 4,
+        "img": "images/thumbs/thumbWeather.png",
+        "alt": "imagem do projeto Wheater API",
+        "title": "Wheater api",
+        "describre": "Neste projeto você pode pesquisar o clima de qualquer cidade no mundo pelo nome, ele faz uma busca por esses dados em uma API de clima. Desenvolvido com",
+        "strong": " ReactJs, FecthAPI...",
+        "project-link": "https://weather-app-chi-flax.vercel.app",
+        "gitHub-link": "https://github.com/matheusfernandes-git/weather-app"
+    },
+    {
+        "id": 5,
+        "img": "images/thumbs/thumbToDoList.png",
+        "alt": "imagem do projeto To Do List",
+        "title": "To Do List",
+        "describre": "Este projeto consiste em um ToDoList. Onde você pode adicionar, remover, editar e concluir uma tarefa. Desenvolvido com",
+        "strong": "Angular, TypeScript, HTML, CSS...",
+        "project-link": "https://to-do-list-two-gules.vercel.app/listaTarefas",
+        "gitHub-link": "https://github.com/matheusfernandes-git/ToDoList"
+    },
+    {
+        "id": 6,
+        "img": "images/thumbs/thumbBookFinder.png",
+        "alt": "imagem do projeto Book Finder",
+        "title": "Book Finder",
+        "describre": "Este projeto é basicamente uma busca de livros em uma api, o usuário pode buscar livros sobre qualquer tema, pode verificar a data de publicação, o autor, sinopse. Desenvolvido com",
+        "strong": "Angular, TypeScript, RXJS, HTML, CSS...",
+        "project-link": "https://book-finder-ivory.vercel.app/lista-livros",
+        "gitHub-link": "https://github.com/matheusfernandes-git/bookFinder"
+    },
+    {
+        "id": 7,
+        "img": "images/thumbs/thumbCodechella.png",
+        "alt": "imagem do projeto Code Chella",
+        "title": "CodeChella",
+        "describre": "Este projeto consiste em um site sobre um festival de música tecnológica. Você pode comprar um ingresso preenchendo os seus dados no formulário de compra. Desenvolvido com",
+        "strong": "ReactJs, React router, Bootstrap...",
+        "project-link": "https://code-chella-kappa.vercel.app/",
+        "gitHub-link": "https://github.com/matheusfernandes-git/code-chella"
+    },
+    {
+        "id": 8,
+        "img": "images/thumbs/thumbporsche.png",
+        "alt": "imagem do projeto Porsche Model",
+        "title": "Porsche Model",
+        "describre": "Neste projeto criei um modelo de site da marca Porsche, onde você pode conferir os modelos da marca, como: 911, Macan e outros. Desenvolvido com",
+        "strong": "ReactJS e React router...",
+        "project-link": "https://porsche-model.vercel.app/",
+        "gitHub-link": "https://github.com/matheusfernandes-git/porsche-model"
+    },
+    {
+        "id": 9,
+        "img": "images/thumbs/thumbLoremFlix.png",
+        "alt": "imagem do projeto LoremFlix",
+        "title": "LoremFlix",
+        "describre": "Neste projeto você pode adicionar um filme com nome, imagem, ano de lançamento e gênero em sua lista de filmes, e também pode alterar a cor do seu campo de gênero. Desenvolvido com",
+        "strong": "ReactJs...",
+        "project-link": "https://lorem-flix.vercel.app/",
+        "gitHub-link": "https://github.com/matheusfernandes-git/lorem-flix"
+    },
+    {
+        "id": 10,
+        "img": "images/thumbs/thumbcardform.png",
+        "alt": "imagem do projeto CardForm",
+        "title": "CardForm",
+        "describre": "Este projeto consiste no preenchimento de um formulário dos dados de um cartão automaticamente. Desenvolvido com",
+        "strong": "ReactJs, Bootstrap, ContextApi...",
+        "project-link": "https://cardform-black.vercel.app/",
+        "gitHub-link": "https://github.com/matheusfernandes-git/cardform"
+    }
+]
